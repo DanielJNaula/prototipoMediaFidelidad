@@ -7,6 +7,8 @@
 @section('start_css')
   @parent
   <link href="plugins/nvd3/nv.d3.min.css" rel="stylesheet" />
+
+
 @endsection
 
 @section('start_js')
@@ -42,7 +44,7 @@
                                                   <button id="btn_buscar" class="btn btn-default" type="submit">
                                                      <text class="hidden-xs">Buscar</text><i class="fa fa-2x fa-search visible-xs"></i>
                                                   </button>
-                                              </span>
+                                              </span> 
                                           </form><!-- end form -->
                                       </div><!-- end col-xs-8 -->
                                   </div><!-- end row -->
@@ -59,43 +61,148 @@
             <div class="container" data-animation="true" data-animation-type="fadeInDown">
                 <div class="row">
                     <div class="col-12 text-center home_iconos_title"><h2><span style="color: #348fe2">Proyectos Destacados</span></h2></div>
-                    <br>
+                    
 
                 </div>
 
                 
             </div>
-        </div>
-
-        <br /><br />
-        <!-- end #team -->
+        </div>       
+        
         <div class="row">
           <div class="container">
             <div class="col-md-12">
+              <h2>  <span style="color: #348fe2"><strong> Donaciones de bienes</strong></span></h2><hr />
               <div class="col-md-4">
-                <div class="card" style="width: 30rem;">
-                  <img class="card-img-top" width="297" height="180"  src="{{ asset('imagenes/imagenes_campañas/donaciones_manos.jpg') }}" alt="Card image cap">
+                <div class="card">
+                  <div class="card-header">
+                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/donaciones_manos.jpg') }}" alt="" style="width:100%">
+                    <div class="menu">
+                        <ul>
+                          <li class="fa fa-2x fa-facebook"> </li>
+                          <li class="fa fa-2x fa-twitter"> </li>
+                          <li class="fa fa-2x fa-youtube"> </li>
+                        </ul>
+                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
+                    </div>                    
+                  </div>              
                   <div class="card-body">
-                    <h5 class="card-title text-center"> <b> Título del Proyecto </b> </h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
+                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
+                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
+                    <div class="left-seccion text-center">
+                      <div class="item">
+                        <strong>
+                          <span class="palabra ">DONACIONES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                      </div>
+                    </div>
+                    <div class="rigth-seccion text-center">
+                      <div class="item">
+                        <strong>
+                          <span class="palabra ">DIAS RESTANTES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                      </div>
+                    </div>
+                    <br><br>
                   </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                  <div class="card-footer">      
+                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
                   </div>
                 </div>
               </div>
-              
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/solidaridad.jpg') }}" alt="" style="width:100%">
+                    <div class="menu">
+                        <ul>
+                          <li class="fa fa-2x fa-facebook"> </li>
+                          <li class="fa fa-2x fa-twitter"> </li>
+                          <li class="fa fa-2x fa-youtube"> </li>
+                        </ul>
+                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
+                    </div>                    
+                  </div>              
+                  <div class="card-body">
+                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
+                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
+                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
+                    <div class="left-seccion text-center">
+                      <div class="item">
+                        <strong>
+                          <span class="palabra ">DONACIONES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                      </div>
+                    </div>
+                    <div class="rigth-seccion text-center">
+                      <div class="item">
+                        <strong>
+                          <span class="palabra ">DIAS RESTANTES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                      </div>
+                    </div>
+                    <br><br>
+                  </div>
+                  <div class="card-footer">      
+                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/Solidaridad_QR.jpg') }}" alt="" style="width:100%">
+                    <div class="menu">
+                        <ul>
+                          <li class="fa fa-2x fa-facebook"> </li>
+                          <li class="fa fa-2x fa-twitter"> </li>
+                          <li class="fa fa-2x fa-youtube"> </li>
+                        </ul>
+                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
+                    </div>                    
+                  </div>              
+                  <div class="card-body">
+                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
+                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
+                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
+                    <div class="left-seccion text-center">
+                      <div class="item">
+                        <strong>
+                          <span class="palabra ">DONACIONES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                      </div>
+                    </div>
+                    <div class="rigth-seccion text-center">
+                      <div class="item">
+                        <strong>
+                          <span class="palabra ">DIAS RESTANTES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                      </div>
+                    </div>
+                    <br><br>
+                  </div>
+                  <div class="card-footer">      
+                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                  </div>
+                </div>
+              </div>
+
             </div>
             
           </div>
         </div>
-        
+
+
         
         <div class="row">
            <div class="container">
@@ -117,7 +224,7 @@
                       <div id="nv-stacked-area-chart" class="mipro-nv-chart height-lg">
                         <svg></svg>
                       </div>
-                      <h4><a href="/cifras-nacionales">Más visualizaciones</a></h4>
+                      <h4><a href="#">Más visualizaciones</a></h4>
                 </div>
               </div>
            </div>

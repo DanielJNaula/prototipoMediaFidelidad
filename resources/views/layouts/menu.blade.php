@@ -35,8 +35,8 @@
 												</a>
 												<ul class="dropdown-menu" role="menu">
 														
-														<li><a href="/zonas-especiales-de-desarrollo-economico">Proyectos de Donaciones de Bienes</a></li>
-														<li><a href="/asociaciones-publico-privadas">Proyectos Voluntariado</a></li>
+														<li><a href="#">Proyectos de Donaciones de Bienes</a></li>
+														<li><a href="#">Proyectos Voluntariado</a></li>
 												</ul>
 										</li>
 										<li class="dropdown">
@@ -52,7 +52,7 @@
 		<div class="collapse navbar-collapse pull-right" id="top-navbar">
 				<ul class="nav navbar-nav">
 					<li>
-							<a href="/login">
+							<a href="#">
 									<i class="fa fa-user fa-fw"></i> Ingresar
 							</a>
 					</li>
