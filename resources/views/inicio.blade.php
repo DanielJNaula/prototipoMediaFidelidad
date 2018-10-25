@@ -91,23 +91,24 @@
                     <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
                     <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="left-seccion text-center">
-                      <div class="item">
-                        <strong>
-                          <span class="palabra ">DONACIONES</span><br>
-                          <span class="numero ">25</span>
-                        </strong>
-                      </div>
-                    </div>
-                    <div class="rigth-seccion text-center">
-                      <div class="item">
-                        <strong>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                          <strong>
+                            <span class="palabra ">DONACIONES</span><br>
+                            <span class="numero ">2</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-3 text-center">
+                          
+                        </div>
+                        <div class="col-md-5 text-center">
+                          <strong>
                           <span class="palabra ">DIAS RESTANTES</span><br>
                           <span class="numero ">25</span>
                         </strong>
-                      </div>
+                        </div>
+                        
                     </div>
-                    <br><br>
                   </div>
                   <div class="card-footer">      
                     <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
@@ -132,23 +133,23 @@
                     <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
                     <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="left-seccion text-center">
-                      <div class="item">
-                        <strong>
-                          <span class="palabra ">DONACIONES</span><br>
-                          <span class="numero ">25</span>
+                    <div class="row"> 
+                        <div class="col-md-4 text-center">
+                          <strong>
+                            <span class="palabra ">DONACIONES</span><br>
+                            <span class="numero ">2</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-3 text-center">
+                          
+                        </div>
+                        <div class="col-md-5 text-center">
+                          <strong>
+                          <span class="palabra ">SIN LIMITE DE TIEMPO</span><br>
+                          <span class="numero "></span>
                         </strong>
-                      </div>
+                        </div>
                     </div>
-                    <div class="rigth-seccion text-center">
-                      <div class="item">
-                        <strong>
-                          <span class="palabra ">DIAS RESTANTES</span><br>
-                          <span class="numero ">25</span>
-                        </strong>
-                      </div>
-                    </div>
-                    <br><br>
                   </div>
                   <div class="card-footer">      
                     <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
@@ -173,23 +174,24 @@
                     <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
                     <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="left-seccion text-center">
-                      <div class="item">
-                        <strong>
-                          <span class="palabra ">DONACIONES</span><br>
-                          <span class="numero ">25</span>
-                        </strong>
-                      </div>
-                    </div>
-                    <div class="rigth-seccion text-center">
-                      <div class="item">
-                        <strong>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                          <strong>
+                            <span class="palabra ">DONACIONES</span><br>
+                            <span class="numero ">13</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-3 text-center">
+                          
+                        </div>
+                        <div class="col-md-5 text-center">
+                          <strong>
                           <span class="palabra ">DIAS RESTANTES</span><br>
-                          <span class="numero ">25</span>
+                          <span class="numero ">19</span>
                         </strong>
-                      </div>
+                        </div>   
+                      
                     </div>
-                    <br><br>
                   </div>
                   <div class="card-footer">      
                     <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
@@ -202,7 +204,151 @@
           </div>
         </div>
 
+        <div class="row">
+          <div class="container">
+            <div class="col-md-12">
+              <h2>  <span style="color: #348fe2"><strong>Voluntariado</strong></span></h2><hr />
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado1.jpg') }}" alt="" style="width:100%">
+                    <div class="menu">
+                        <ul>
+                          <li class="fa fa-2x fa-facebook"> </li>
+                          <li class="fa fa-2x fa-twitter"> </li>
+                          <li class="fa fa-2x fa-youtube"> </li>
+                        </ul>
+                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
+                    </div>                    
+                  </div>              
+                  <div class="card-body">
+                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
+                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
+                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
+                    <div class="row">
+                      
+                        <div class="col-md-4 text-center">
+                          <strong>
+                            <span class="palabra ">VOLUNTARIOS</span><br>
+                            <span class="numero ">2</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-3 text-center">
+                          <strong>
+                            <span class="palabra">VACANTES</span><br>
+                            <span class="numero ">5</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-5 text-center">
+                          <strong>
+                          <span class="palabra ">DIAS RESTANTES</span><br>
+                          <span class="numero ">25</span>
+                        </strong>
+                        </div> 
+                    </div>
+                    
+                    
+                  </div>
+                  <div class="card-footer">      
+                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado2.jpg') }}" alt="" style="width:100%">
+                    <div class="menu">
+                        <ul>
+                          <li class="fa fa-2x fa-facebook"> </li>
+                          <li class="fa fa-2x fa-twitter"> </li>
+                          <li class="fa fa-2x fa-youtube"> </li>
+                        </ul>
+                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
+                    </div>                    
+                  </div>              
+                  <div class="card-body">
+                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
+                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
+                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
+                    <div class="row">        
+                        <div class="col-md-4 text-center">
+                          <strong>
+                            <span class="palabra ">VOLUNTARIOS</span><br>
+                            <span class="numero ">5</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-3 text-center">
+                          <strong>
+                            <span class="palabra">VACANTES</span><br>
+                            <span class="numero ">4</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-5 text-center">
+                          <strong>
+                          <span class="palabra ">DIAS RESTANTES</span><br>
+                          <span class="numero ">16</span>
+                        </strong>
+                        </div> 
+                    </div>
+                  </div>
+                  <div class="card-footer">      
+                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header">
+                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado3.jpg') }}" alt="" style="width:100%">
+                    <div class="menu">
+                        <ul>
+                          <li class="fa fa-2x fa-facebook"> </li>
+                          <li class="fa fa-2x fa-twitter"> </li>
+                          <li class="fa fa-2x fa-youtube"> </li>
+                        </ul>
+                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
+                    </div>                    
+                  </div>              
+                  <div class="card-body">
+                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
+                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
+                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
+                    <div class="row">
+                      
+                        <div class="col-md-4 text-center">
+                          <strong>
+                            <span class="palabra ">VOLUNTARIOS</span><br>
+                            <span class="numero ">2</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-3 text-center">
+                          <strong>
+                            <span class="palabra">VACANTES</span><br>
+                            <span class="numero ">5</span>
+                          </strong>
+                        </div>
+                        <div class="col-md-5 text-center">
+                          <strong>
+                          <span class="palabra ">SIN LIMITE DE TIEMPO</span><br>
+                          <span class="numero "></span>
+                        </strong>
+                        </div> 
+                    </div>
+                  </div>
+                  <div class="card-footer">      
+                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                  </div>
+                </div>
+              </div>
 
+            </div>
+            
+          </div>
+        </div>
         
         <div class="row">
            <div class="container">

@@ -59,7 +59,7 @@
   
 }
 
-.card:hover .item{
+.card:hover .palabra{
     color: #348fe2;
   
 }
@@ -106,13 +106,7 @@
 .card-body {
     padding: 2px 16px;
 }
-.rigth-seccion{
-    float: right;
-}
 
-.left-seccion{
-    float: left;
-}
 .card-body .tituloCampana{
     color: black;
     text-align: center;
@@ -122,6 +116,10 @@
     text-align: center;
 }
 
+
+.palabra{
+    font-size: 11px;
+}
 
 
 
