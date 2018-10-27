@@ -18,7 +18,7 @@
 Route::get('/','PaginasController@inicio');
 
 Route::get('/2', function () {
-	return view('pages.dashboard-v2');
+	return view('cn-pages.ui-icons');
 	//return redirect('pages.dashboard-v2');
 });
 Route::get('/dashboard/v1', function () {
@@ -33,3 +33,4 @@ Route::get('/ui/modal-notification', function () {
 Route::get('/ui/ionicons', function () {
     return view('pages/ui-ionicons');
 });
+

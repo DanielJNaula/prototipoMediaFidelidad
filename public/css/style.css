@@ -4007,6 +4007,8 @@ ul.tagit.inverse li.tagit-choice .tagit-close:focus .ui-icon-close:before {
     margin-right: -10px;
     overflow: hidden;
     padding: 10px;
+    height: 425px;
+
 }
 .gallery .image img {
     width: 100%;
@@ -4032,6 +4034,25 @@ ul.tagit.inverse li.tagit-choice .tagit-close:focus .ui-icon-close:before {
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
+
+.gallery .image:hover i{
+    color: #348fe2;
+  
+}
+.gallery .image:hover .title{
+    color: #348fe2;
+  
+}
+.gallery .image:hover .donaciones{
+    color: #348fe2;
+  
+}
+
+.gallery .image:hover .voluntariado{
+    color: #348fe2;
+  
+}
+
 .gallery .image-caption {
     position: absolute;
     top: 15px;
@@ -4044,29 +4065,100 @@ ul.tagit.inverse li.tagit-choice .tagit-close:focus .ui-icon-close:before {
 }
 .gallery .image-info {
     background: #fff;
-    padding: 15px;
+    padding: 5px;
     -webkit-border-radius: 0 0 3px 3px;
     -moz-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px;
 }
-.gallery .image-info .title {
-    margin: 0 0 10px;
-    line-height: 18px;
-    font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.gallery .image-footer {
+    background: #fff;
+    padding: 1px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
 }
+
+
+
 .gallery .image-info .rating {
     line-height: 20px;
     margin: 0 0 3px;
 }
 .gallery .image-info .desc {
-    line-height: 16px;
-    font-size: 12px;
-    height: 48px;
+    line-height: 16px !important;
+    font-size: 16px;
+    text-align: justify;
+    height: 82px;
     overflow: hidden;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
+
+.gallery .image-info .title {
+    margin: 0 0 10px;
+    line-height: 16px;
+    font-size: 18px;
+    overflow: hidden;
+    text-align: justify;
+    height: 30px;
+}
+
+.gallery .image-footer .donaciones{
+
+    padding: 0;
+}
+
+.gallery .image-footer .donaciones li{
+
+    display: inline-block;
+    width: 49%;
+    font-weight: 300;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.gallery .image-footer .voluntariado{
+    padding: 0;
+}
+
+.gallery .image-footer .voluntariado li{
+
+    display: inline-block;
+    width: 31%;
+    font-weight: 300;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.gallery .image-inner .redes-sociales-camp{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+
+.gallery .image-inner .redes-sociales-camp ul{
+    
+    padding: 6px 0;
+    margin: 0 14px;
+    display: none;
+    background: white;
+    color: #348fe2;
+}
+
+.gallery .image-inner .redes-sociales-camp ul li{
+    float: left;
+    width: 50px;
+    text-align: center;
+
+}
+
+.gallery .image-inner .redes-sociales-camp:hover > ul{
+    display: block;
+}
+
 .gallery .rating span.star {
     font-family: FontAwesome;
     display: inline-block;
@@ -6895,11 +6987,12 @@ select option {
     background-repeat: no-repeat;
 }
 
-.government_footer_logos {
+.footer-info {
   height: 300px;
+  padding-top: 100px;
 }
 
-.government_footer_logos > img {
+.footer-info > img {
   position: relative;
   /* left: 0;
   bottom: 0;

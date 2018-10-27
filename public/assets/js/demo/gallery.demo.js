@@ -62,6 +62,52 @@ var handleIsotopesGallery = function() {
 	});
 };
 
+var handleIsotopesGallery1 = function() {
+	"use strict";
+	var container = $('#gallery1');
+	var dividerValue = calculateDivider();
+	var containerWidth = $(container).width();
+	var columnWidth = containerWidth / dividerValue;
+	$(container).isotope({
+		resizable: true,
+		masonry: {
+			columnWidth: columnWidth
+		}
+	});
+	
+	$(window).smartresize(function() {
+		var dividerValue = calculateDivider();
+		var containerWidth = $(container).width();
+		var columnWidth = containerWidth / dividerValue;
+		$(container).isotope({
+			masonry: { 
+				columnWidth: columnWidth 
+			}
+		});
+	});
+	
+	var $optionSets = $('#options1 .gallery-option-set'),
+	$optionLinks = $optionSets.find('a');
+	
+	$optionLinks.click( function(){
+		var $this = $(this);
+		if ($this.hasClass('active')) {
+			return false;
+		}
+		var $optionSet = $this.parents('.gallery-option-set');
+		$optionSet.find('.active').removeClass('active');
+		$this.addClass('active');
+	
+		var options = {};
+		var key = $optionSet.attr('data-option-key');
+		var value = $this.attr('data-option-value');
+			value = value === 'false' ? false : value;
+			options[ key ] = value;
+		$(container).isotope( options );
+		return false;
+	});
+};
+
 
 var Gallery = function () {
 	"use strict";
@@ -69,6 +115,7 @@ var Gallery = function () {
         //main function
         init: function () {
             handleIsotopesGallery();
+            handleIsotopesGallery1();
         }
     };
 }();

@@ -7,7 +7,8 @@
 @section('start_css')
   @parent
   <link href="plugins/nvd3/nv.d3.min.css" rel="stylesheet" />
-
+  <link href="plugins/isotope/isotope.css" rel="stylesheet" />
+  <link href="cn-assets/plugins/lightbox2/css/lightbox.css" rel="stylesheet" />
 
 @endsection
 
@@ -68,287 +69,355 @@
                 
             </div>
         </div>       
+        <!-- Inicio docaciones bienes -->
         
         <div class="row">
           <div class="container">
             <div class="col-md-12">
-              <h2>  <span style="color: #348fe2"><strong> Donaciones de bienes</strong></span></h2><hr />
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/donaciones_manos.jpg') }}" alt="" style="width:100%">
-                    <div class="menu">
-                        <ul>
-                          <li class="fa fa-2x fa-facebook"> </li>
-                          <li class="fa fa-2x fa-twitter"> </li>
-                          <li class="fa fa-2x fa-youtube"> </li>
-                        </ul>
-                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
-                    </div>                    
-                  </div>              
-                  <div class="card-body">
-                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
-                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
-                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="row">
-                        <div class="col-md-4 text-center">
-                          <strong>
-                            <span class="palabra ">DONACIONES</span><br>
-                            <span class="numero ">2</span>
-                          </strong>
+              <div class="panel-body">
+                
+                                    
+                      <!-- begin page-header -->
+                      <h2><span style="color: #348fe2"> <strong> Donaciones de bienes</strong></span></h2>
+                      <!-- end page-header -->
+                      
+                      
+                      <!-- begin #gallery -->
+                      <div id="gallery" class="gallery">
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/donaciones_manos.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/donaciones_manos.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info" >
+                              
+                              <h5 class="title "> <strong>Ayuda a los albergados del Albergue San Juan de Dios</strong></h5>  
+                            
+                            
+                            
+                              <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Sean Ngu</a>
+                            
+                            
+                            <div class="desc ">
+                              Nunc velit urna, aliquam at interdum sit amet, lacinia sit amet ligula. Quisque et erat eros. Aenean auctor metus in tortor placerat, non luctus justo blandit.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="donaciones">
+                                <li >20 <br><span>Donaciones</span></li>
+                                
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+
                         </div>
-                        <div class="col-md-3 text-center">
-                          
+                        <!-- end image -->
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/solidaridad.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/solidaridad.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info">
+                            <h5 class="title"> <strong>Donec mi quis volutpat ornare</strong></h5>
+                            
+                            <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Richard Leong</a>
+                            
+                            <div class="desc ">
+                              Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut et augue luctus libero dignissim sodales, sapien consequat lacinia fringilla.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="donaciones">
+                                <li >20 <br><span>Donaciones</span></li>
+                                
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
                         </div>
-                        <div class="col-md-5 text-center">
-                          <strong>
-                          <span class="palabra ">DIAS RESTANTES</span><br>
-                          <span class="numero ">25</span>
-                        </strong>
+                        <!-- end image -->
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/Solidaridad_QR.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/Solidaridad_QR.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info">
+                            <h5 class="title "> <strong>Etiam lobortis egestas nisl</strong> </h5>
+                            
+                              <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Lelouch Wong</a>
+                            
+                            
+                            <div class="desc ">
+                              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eget ultricies arcu.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="donaciones">
+                                <li >20 <br><span>Donaciones</span></li>
+                                
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
                         </div>
+                        <!-- end image -->
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/principal-solidaria.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/principal-solidaria.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info">
+                            <h5 class="title "> <strong>Donec mi quis volutpat ornare</strong> </h5>
+                            
+                              <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Richard Leong</a>
+                           
+                            <div class="desc ">
+                              Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut et augue luctus libero dignissim sodales, sapien consequat lacinia fringilla.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="donaciones">
+                                <li >20 <br><span>Donaciones</span></li>
+                                
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                        </div>
+                        <!-- end image -->
                         
-                    </div>
-                  </div>
-                  <div class="card-footer">      
-                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/solidaridad.jpg') }}" alt="" style="width:100%">
-                    <div class="menu">
-                        <ul>
-                          <li class="fa fa-2x fa-facebook"> </li>
-                          <li class="fa fa-2x fa-twitter"> </li>
-                          <li class="fa fa-2x fa-youtube"> </li>
-                        </ul>
-                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
-                    </div>                    
-                  </div>              
-                  <div class="card-body">
-                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
-                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
-                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="row"> 
-                        <div class="col-md-4 text-center">
-                          <strong>
-                            <span class="palabra ">DONACIONES</span><br>
-                            <span class="numero ">2</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-3 text-center">
-                          
-                        </div>
-                        <div class="col-md-5 text-center">
-                          <strong>
-                          <span class="palabra ">SIN LIMITE DE TIEMPO</span><br>
-                          <span class="numero "></span>
-                        </strong>
-                        </div>
-                    </div>
-                  </div>
-                  <div class="card-footer">      
-                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_donaciones/Solidaridad_QR.jpg') }}" alt="" style="width:100%">
-                    <div class="menu">
-                        <ul>
-                          <li class="fa fa-2x fa-facebook"> </li>
-                          <li class="fa fa-2x fa-twitter"> </li>
-                          <li class="fa fa-2x fa-youtube"> </li>
-                        </ul>
-                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
-                    </div>                    
-                  </div>              
-                  <div class="card-body">
-                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
-                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
-                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="row">
-                        <div class="col-md-4 text-center">
-                          <strong>
-                            <span class="palabra ">DONACIONES</span><br>
-                            <span class="numero ">13</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-3 text-center">
-                          
-                        </div>
-                        <div class="col-md-5 text-center">
-                          <strong>
-                          <span class="palabra ">DIAS RESTANTES</span><br>
-                          <span class="numero ">19</span>
-                        </strong>
-                        </div>   
-                      
-                    </div>
-                  </div>
-                  <div class="card-footer">      
-                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
-                  </div>
-                </div>
-              </div>
+                        
+                        
+                       
+                        
+                        
+                      </div>
+                    <!-- end #gallery -->
 
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+       <!-- Fin Donaciones de Bienes -->
+       <div class="row">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="panel-body">
+              <div class="row">
+                    <!-- begin page-header -->
+                      <h2><span style="color: #348fe2"> <strong> Voluntariado</strong></span></h2>
+                      <!-- end page-header -->
+                      
+                      
+                      <!-- begin #gallery -->
+                      <div id="gallery1" class="gallery">
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado1.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado1.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info" >
+                              
+                              <h5 class="title "> <strong>Ayuda a los albergados del Albergue San Juan de Dios</strong></h5>  
+                            
+                            
+                            
+                              <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Sean Ngu</a>
+                            
+                            
+                            <div class="desc ">
+                              Nunc velit urna, aliquam at interdum sit amet, lacinia sit amet ligula. Quisque et erat eros. Aenean auctor metus in tortor placerat, non luctus justo blandit.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="voluntariado">
+                                <li >20 <br><span>Voluntarios</span></li>
+                                <li>5 <br> <span>Vacantes</span></li>
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
+
+                        </div>
+                        <!-- end image -->
+                        <!-- begin image -->
+                        <div class="image gallery-group-2">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado2.jpg') }}" data-lightbox="gallery-group-2">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado2.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info">
+                            <h5 class="title"> <strong>Donec mi quis volutpat ornare</strong></h5>
+                            
+                            <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Richard Leong</a>
+                            
+                            <div class="desc ">
+                              Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut et augue luctus libero dignissim sodales, sapien consequat lacinia fringilla.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="voluntariado">
+                                <li >20 <br><span>Voluntarios</span></li>
+                                <li>5 <br> <span>Vacantes</span></li>
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
+                        </div>
+                        <!-- end image -->
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado3.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado3.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info">
+                            <h5 class="title "> <strong>Etiam lobortis egestas nisl</strong> </h5>
+                            
+                              <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Lelouch Wong</a>
+                            
+                            
+                            <div class="desc ">
+                              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eget ultricies arcu.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="voluntariado">
+                                <li >20 <br><span>Voluntarios</span></li>
+                                <li>5 <br> <span>Vacantes</span></li>
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
+                        </div>
+                        <!-- end image -->
+                        <!-- begin image -->
+                        <div class="image gallery-group-1">
+                          <div class="image-inner">
+                            <a href="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado4.jpg') }}" data-lightbox="gallery-group-1">
+                              <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado4.jpg') }}" alt="" />
+                            </a>
+                            <div class="redes-sociales-camp">
+                              <ul>
+                                <li class="fa fa-2x fa-facebook"> </li>
+                                <li class="fa fa-2x fa-twitter"> </li>
+                                <li class="fa fa-2x fa-youtube"> </li>
+                              </ul>
+                              <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>  
+                            </div>
+                          </div>
+                          <div class="image-info">
+                            <h5 class="title "> <strong>Donec mi quis volutpat ornare</strong> </h5>
+                            
+                              <small>by <i class="fa fa-user"></i></small> <a href="javascript:;">Richard Leong</a>
+                           
+                            <div class="desc ">
+                              Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut et augue luctus libero dignissim sodales, sapien consequat lacinia fringilla.
+                            </div>
+                          </div>
+                          <div class="image-footer" >
+                              <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5> 
+                              <ul class="voluntariado">
+                                <li >20 <br><span>Voluntarios</span></li>
+                                <li>5 <br> <span>Vacantes</span></li>
+                                <li >12 <br> <span>Dias restantes</span></li>
+                              </ul>
+                          </div>
+                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
+                        </div>
+                        <!-- end image -->    
+                        
+                      </div>
+                    <!-- end #gallery -->
+
+                
+              </div>
+              
             </div>
             
           </div>
         </div>
+         
+       </div>
 
-        <div class="row">
-          <div class="container">
-            <div class="col-md-12">
-              <h2>  <span style="color: #348fe2"><strong>Voluntariado</strong></span></h2><hr />
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado1.jpg') }}" alt="" style="width:100%">
-                    <div class="menu">
-                        <ul>
-                          <li class="fa fa-2x fa-facebook"> </li>
-                          <li class="fa fa-2x fa-twitter"> </li>
-                          <li class="fa fa-2x fa-youtube"> </li>
-                        </ul>
-                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
-                    </div>                    
-                  </div>              
-                  <div class="card-body">
-                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
-                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
-                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="row">
-                      
-                        <div class="col-md-4 text-center">
-                          <strong>
-                            <span class="palabra ">VOLUNTARIOS</span><br>
-                            <span class="numero ">2</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-3 text-center">
-                          <strong>
-                            <span class="palabra">VACANTES</span><br>
-                            <span class="numero ">5</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-5 text-center">
-                          <strong>
-                          <span class="palabra ">DIAS RESTANTES</span><br>
-                          <span class="numero ">25</span>
-                        </strong>
-                        </div> 
-                    </div>
-                    
-                    
-                  </div>
-                  <div class="card-footer">      
-                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado2.jpg') }}" alt="" style="width:100%">
-                    <div class="menu">
-                        <ul>
-                          <li class="fa fa-2x fa-facebook"> </li>
-                          <li class="fa fa-2x fa-twitter"> </li>
-                          <li class="fa fa-2x fa-youtube"> </li>
-                        </ul>
-                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
-                    </div>                    
-                  </div>              
-                  <div class="card-body">
-                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
-                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
-                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="row">        
-                        <div class="col-md-4 text-center">
-                          <strong>
-                            <span class="palabra ">VOLUNTARIOS</span><br>
-                            <span class="numero ">5</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-3 text-center">
-                          <strong>
-                            <span class="palabra">VACANTES</span><br>
-                            <span class="numero ">4</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-5 text-center">
-                          <strong>
-                          <span class="palabra ">DIAS RESTANTES</span><br>
-                          <span class="numero ">16</span>
-                        </strong>
-                        </div> 
-                    </div>
-                  </div>
-                  <div class="card-footer">      
-                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                      <img src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado3.jpg') }}" alt="" style="width:100%">
-                    <div class="menu">
-                        <ul>
-                          <li class="fa fa-2x fa-facebook"> </li>
-                          <li class="fa fa-2x fa-twitter"> </li>
-                          <li class="fa fa-2x fa-youtube"> </li>
-                        </ul>
-                        <span> <i class="fa fa-2x fa-ellipsis-v"></i></span>    
-                    </div>                    
-                  </div>              
-                  <div class="card-body">
-                    <h4 class="tituloCampana"><b>Ayuda para los ancianos del Albergue San Juan de Dios</b></h4>
-                    <h5><i class="fa fa-user" ></i>  Daniel Naula</h5>
-                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores temporibus fuga error voluptates ratione, sed eos sequi vitae.</p>
-                    <h5><i class="fa fa-map-marker"></i> Pichincha, Quito</h5>
-                    <div class="row">
-                      
-                        <div class="col-md-4 text-center">
-                          <strong>
-                            <span class="palabra ">VOLUNTARIOS</span><br>
-                            <span class="numero ">2</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-3 text-center">
-                          <strong>
-                            <span class="palabra">VACANTES</span><br>
-                            <span class="numero ">5</span>
-                          </strong>
-                        </div>
-                        <div class="col-md-5 text-center">
-                          <strong>
-                          <span class="palabra ">SIN LIMITE DE TIEMPO</span><br>
-                          <span class="numero "></span>
-                        </strong>
-                        </div> 
-                    </div>
-                  </div>
-                  <div class="card-footer">      
-                    <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            
-          </div>
-        </div>
         
         <div class="row">
            <div class="container">
@@ -356,18 +425,10 @@
                  <div class="panel-body">
                       <div class="row">
                           <h2>Visualizaciones</h2><hr />
-                          <p class="site-page-content-paragraph">Proyectos Caritativos</p>
-                          <div class="col-lg-3">
-                            <select id="select-tipo-cifra-pib-zona1" onchange="handleStackedAreaChart();" class="form-control">
-                              <option value="" disabled>Seleccione Tipo de Cifra</option>
-                              @foreach($tiposCifrasNacionalesPIBZonas1 as $tiposCifrasNacionalesPIBZonas1)
-                                <option value="{{$tiposCifrasNacionalesPIBZonas1->id}}">{{$tiposCifrasNacionalesPIBZonas1->nombre_tipo_cifra_nacional}}</option>
-                              @endforeach
-                          </select>
-                          </div>
+                          <p class="site-page-content-paragraph">Proyectos Caritativos</p>   
                       </div>
                           <br><br>
-                      <div id="nv-stacked-area-chart" class="mipro-nv-chart height-lg">
+                      <div id="nv-stacked-area-chart" class="unidos-somos-mas-nv-chart height-lg">
                         <svg></svg>
                       </div>
                       <h4><a href="#">Más visualizaciones</a></h4>
@@ -384,15 +445,25 @@
 @section('end_js')
   @parent
 
-  <script src="{{ asset('js/Graficas_Cn_mipro/Cifras_Nacionales_Mipro-inicio.js') }}"></script>
+  <script src="{{ asset('js/Graficas_unidos_somos_mas/unidos_somos_mas_inicio.js') }}"></script>
   <script src="{{ asset('plugins/nvd3/nvd3.min.js') }}"></script>
 
   <script src="{{ asset('js/apps.min.js')}}"></script>
   <script src="{{ asset('js/ui-modal-notification.demo.js') }}"></script>
 
+  <script src="/cn-assets/plugins/isotope/jquery.isotope.min.js"></script>
+  <script src="/cn-assets/plugins/lightbox2/js/lightbox.min.js"></script>
+  <script src="/cn-assets/js/demo/gallery.demo.js"></script>
+
 @endsection
 
 @section('init_scripts')
+
+  <script>
+    $(document).ready(function() {
+      Gallery.init();
+    });
+  </script>
 
   <script>
 
