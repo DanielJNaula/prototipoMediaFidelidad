@@ -9,16 +9,18 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-*/
+*/ 
 
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-
+ 
 Route::get('/','PaginasController@inicio');
 
+Route::get('/resutadosBusqueda','PaginasController@resultadosBusqueda');
+
 Route::get('/2', function () {
-	return view('cn-pages.ui-icons');
+	return view('cn-pages.extra-search-result');
 	//return redirect('pages.dashboard-v2');
 });
 Route::get('/dashboard/v1', function () {

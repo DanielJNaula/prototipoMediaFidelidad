@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('title', 'Search Results')
-
+ 
 @section('content')
 	<!-- begin breadcrumb -->
 	<ol class="breadcrumb pull-right">

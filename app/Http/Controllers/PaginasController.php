@@ -12,6 +12,9 @@ use App\CnTipoCifraNacional;
 class PaginasController extends Controller
 {
     
+    public function resultadosBusqueda(){
+        return view('usuario_sin_inicio_secion.resultadosBusquedaCampaña');
+    }
     public function inicio(){
 
         $tiposCifrasNacionalesPIBZonas1= CnTipoCifraNacional::select('id','nombre_tipo_cifra_nacional')
