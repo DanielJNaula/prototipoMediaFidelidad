@@ -10,11 +10,11 @@
 <link href="/assets/css/bundle.css" rel="stylesheet" />
 <link href="/assets/css/default/style.min.css" rel="stylesheet" />
 <link href="/assets/css/default/style-responsive.min.css" rel="stylesheet" />
-<link href="/assets/css/default/theme/default.css" rel="stylesheet" id="theme" />
+
 <!-- ================== END BASE CSS STYLE ================== -->
 
 <!-- ================== BEGIN BASE JS ================== -->
 <script src="/assets/plugins/pace/pace.min.js"></script>
 <!-- ================== END BASE JS ================== -->
 
-@stack('css')
+@stack('css') 

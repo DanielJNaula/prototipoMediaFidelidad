@@ -13,7 +13,7 @@ class PaginasController extends Controller
 {
     
     public function resultadosBusqueda(){
-        return view('usuario_sin_inicio_secion.resultadosBusquedaCampaña');
+        return view('publico.resultadosBusquedaCampaña');
     }
     public function inicio(){
 

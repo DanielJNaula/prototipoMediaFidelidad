@@ -236,7 +236,7 @@ body {
 .ie8 body {
     font-family: Arial,sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6{ 
     font-weight: 600;
     color: #242a30;
 }
@@ -9168,6 +9168,7 @@ a.inverse-mode.widget-card {
 .result-list .result-image a:hover,
 .result-list .result-image a:focus {
     opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 .result-list .result-image img {
     width: 100%;
