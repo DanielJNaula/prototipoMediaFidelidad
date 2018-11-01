@@ -38,7 +38,7 @@
 
                                   <div class="row">
                                       <div class="col-xs-8 col-xs-offset-2">
-                                          <form method="GET" action="#" id="searchForm" class="search-home input-group">
+                                          <form method="GET" action="/resutadosBusqueda" id="searchForm" class="search-home input-group">
                                               
                                               <input id="buscar_general" type="text" class="form-control" name="parametro" placeholder="Busca los proyectos en los que deseas ayudar con contribucion de bienes o servicio">
                                               <span class="input-group-btn">
