@@ -11,16 +11,18 @@ use App\CnTipoCifraNacional;
 
 class PaginasController extends Controller
 {
-    
+    public function detalleCampaña(){
+        return view('publico.detalleCampaña');
+    }
+
     public function resultadosBusqueda(){
         return view('publico.resultadosBusquedaCampaña');
     }
+
     public function inicio(){
 
-        $tiposCifrasNacionalesPIBZonas1= CnTipoCifraNacional::select('id','nombre_tipo_cifra_nacional')
-                                                     ->take(4)
-                                                     ->get();
-      return view('inicio')->with(["tiposCifrasNacionalesPIBZonas1"=>$tiposCifrasNacionalesPIBZonas1]);
+        
+      return view('inicio');
 
     }
     /**

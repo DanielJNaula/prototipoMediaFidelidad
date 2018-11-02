@@ -120,7 +120,7 @@
                                 <li >12 <br> <span>Dias restantes</span></li>
                               </ul>
                           </div>
-                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                          <a href="/detalleCampaña" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
 
                         </div>
                         <!-- end image -->

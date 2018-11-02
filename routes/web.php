@@ -19,8 +19,10 @@ Route::get('/','PaginasController@inicio');
 
 Route::get('/resutadosBusqueda','PaginasController@resultadosBusqueda');
 
+Route::get('/detalleCampaña','PaginasController@detalleCampaña');
+
 Route::get('/2', function () {
-	return view('cn-pages.extra-search-result');
+	return view('cn-pages.ui-tabs-accordions');
 	//return redirect('pages.dashboard-v2');
 });
 Route::get('/dashboard/v1', function () {

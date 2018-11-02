@@ -9,8 +9,6 @@
   <link href="{{ asset('css/style-after.css') }}" rel="stylesheet" />
 
 
-
-
 @endsection
  
 @section('contenido')
@@ -81,7 +79,7 @@
       </div>
       <div class="col-md-9">
 
-        <div class="col-md-10 pull-left">
+        <div class="col-md-12 pull-left">
 
                     <div class="panel-body text-center p-r-25">
 
@@ -155,7 +153,7 @@
                               </div>
                               <div class="result-price">
                                 <small><i class="fa fa-map-marker"></i> Quito, Pichincha</small>
-                                <a href="javascript:;" class="btn btn-primary btn-block">Ver Campaña</a>
+                                <a href="/detalleCampaña" class="btn btn-primary btn-block">Ver Campaña</a>
                               </div>
                             </li>
                       </ul>
