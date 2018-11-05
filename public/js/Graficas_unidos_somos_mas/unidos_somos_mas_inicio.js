@@ -51,6 +51,7 @@ var handleStackedAreaChart = function() {
                               });
 
                           nv.utils.windowResize(stackedAreaChart.update);
+                          
 
                           return stackedAreaChart;
 

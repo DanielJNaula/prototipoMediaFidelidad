@@ -473,7 +473,7 @@
           ChartNvd3.init();
 
           // Fix nvd3 issue repeated tooltip on some charts
-          $("div.mipro-nv-chart")
+          $("div.unidos-somos-mas-nv-chart")
           .mouseleave(function() {
             var tooltips_elements = d3.selectAll('[id^=nvtooltip]');
             tooltips_elements.each(function (i, v) {

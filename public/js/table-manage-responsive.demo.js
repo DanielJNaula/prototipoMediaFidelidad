@@ -156,6 +156,56 @@ var handleDataTableResponsiveCCPTlistado = function() {
     }
 };
 
+var DataTableComentarios = function() {
+	"use strict";
+
+    if ($('#data-table1').length !== 0) {
+        $('#data-table1').DataTable({
+            responsive: true,
+						dom: 'lBfrtip',
+						"searching": true,
+						buttons: [],
+						select: false,
+						"language": {
+							"sProcessing":     "Procesando...",
+							"sLengthMenu":     "Mostrar _MENU_ registros",
+							"sZeroRecords":    "No se encontraron resultados",
+							"sEmptyTable":     "Ningún dato disponible en esta tabla",
+							"sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+							"sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+							"sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+							"sInfoPostFix":    "",
+							"sSearch":         "Búsqueda Rápida:",
+							"sUrl":            "",
+							"sInfoThousands":  ",",
+							"sLoadingRecords": "Cargando...",
+							"oPaginate": {
+								"sFirst":    "Primero",
+								"sLast":     "Último",
+								"sNext":     "Siguiente",
+								"sPrevious": "Anterior"
+							},
+							"oAria": {
+								"sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+								"sSortDescending": ": Activar para ordenar la columna de manera descendente"
+							},
+							buttons: {
+								copy: 'Copiar Tabla',
+								excel: 'Descargar',
+								csv: 'Exportar a CSV',
+								print: 'Imprimir',
+								copyTitle: 'Se copiaron',
+								pdf: 'Exportar a PDF',
+                copySuccess: {
+                    _: '%d Registros',
+                    1: '1 Registro'
+                }
+            }
+						}
+        });
+    }
+};
+
 var handleDataTableResponsiveBasica = function() {
 	"use strict";
 
@@ -233,6 +283,16 @@ var TablaCCPTHomelistado = function () {
         //main function
         init: function () {
             handleDataTableResponsiveCCPTlistado();
+        }
+    };
+}();
+
+var TablaComentarios = function () {
+	"use strict";
+    return {
+        //main function
+        init: function () {
+            DataTableComentarios();
         }
     };
 }();

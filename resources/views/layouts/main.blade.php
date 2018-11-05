@@ -98,6 +98,7 @@
 
 	    });
 	</script>
+	
 
 	@stack('scripts')
 
