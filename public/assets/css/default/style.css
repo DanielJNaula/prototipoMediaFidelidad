@@ -376,7 +376,7 @@ table.dataTable thead .sorting_desc_disabled:after,
 .page-with-two-sidebar .content {
     margin-right: 220px;
 }
-.page-with-two-sidebar.page-sidebar-minified .sidebar.sidebar-right,
+.page-with-two-sidebar.page-sidebar-minified .sidebar.sidebar-right, 
 .page-with-two-sidebar.page-sidebar-minified .sidebar-bg.sidebar-right {
     width: 220px;
 }

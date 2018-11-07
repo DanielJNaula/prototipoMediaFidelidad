@@ -246,12 +246,15 @@
           </div>
         </div>
        <!-- Fin Donaciones de Bienes -->
-       <div class="row">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="panel-body">
-              <div class="row">
-                    <!-- begin page-header -->
+        <!-- Inicio docaciones bienes -->
+        
+        <div class="row">
+          <div class="container">
+            <div class="col-md-12">
+              <div class="panel-body">
+                
+                                    
+                      <!-- begin page-header -->
                       <h2><span style="color: #348fe2"> <strong> Voluntariado</strong></span></h2>
                       <!-- end page-header -->
                       
@@ -298,7 +301,7 @@
 
                         </div>
                         <!-- end image -->
-                        <!-- begin image -->
+                         <!-- begin image -->
                         <div class="image gallery-group-2">
                           <div class="image-inner">
                             <a href="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado2.jpg') }}" data-lightbox="gallery-group-2">
@@ -403,30 +406,31 @@
                           </div>
                           <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
                         </div>
-                        <!-- end image -->    
+                        <!-- end image -->
+                        
+                        
+                        
+                       
+                        
                         
                       </div>
                     <!-- end #gallery -->
 
-                
+
               </div>
               
             </div>
-            
           </div>
         </div>
-         
-       </div>
-
+       <!-- Fin Donaciones de Bienes -->
         
         <div class="row">
            <div class="container">
               <div class="col-md-12">
                  <div class="panel-body">
-                      <div class="row">
-                          <h2>Visualizaciones</h2><hr />
-                          <p class="site-page-content-paragraph">Proyectos Caritativos</p>   
-                      </div>
+                      
+                        <h2>Visualizaciones</h2><hr />
+                          <p class="site-page-content-paragraph">Proyectos Caritativos</p> 
                           <br><br>
                       <div id="nv-stacked-area-chart" class="unidos-somos-mas-nv-chart height-lg">
                         <svg></svg>

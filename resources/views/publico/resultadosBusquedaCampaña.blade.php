@@ -192,7 +192,7 @@
                   </tr>
                   <tr>
                       <td class="text-left p-t-15">
-                        <ul class="result-list">
+                        <ul class="result-list"> 
                             <li>
                               <a href="#" class="result-image" style="background-image: url(../assets/img/gallery/gallery-51.jpg)"></a>
                               <div class="result-info">

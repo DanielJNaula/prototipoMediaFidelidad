@@ -32,7 +32,7 @@
 
       		<link href="{{ asset('css/unidosSomosMas.css') }}" rel="stylesheet" />
 			<link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
+			
 			
 		@show
 		<!-- ================== END BASE CSS STYLE ================== -->
@@ -66,11 +66,13 @@
 		@section('end_js')
 			<!-- ================== BEGIN BASE JS ================== -->
 
-
-			<script src="/cn-assets/js/theme/default.js"></script>
-			<script src="{{ asset('plugins/jquery/jquery-1.9.1.min.js') }}"></script>
-			<script src="{{ asset('plugins/jquery/jquery-migrate-1.1.0.min.js') }}"></script>
+			<script src="{{ asset('plugins/jquery/jquery-3.3.1.min.js') }}"></script>
 			<script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+			<script src="/cn-assets/js/theme/default.js"></script>
+
+			<script src="{{ asset('plugins/jquery/jquery-migrate-1.1.0.min.js') }}"></script>
+
+			
 			<!--[if lt IE 9]>
 			  <script src="{{ asset('crossbrowserjs/html5shiv.js') }}"></script>
 			  <script src="{{ asset('crossbrowserjs/respond.min.js') }}"></script>

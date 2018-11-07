@@ -1,14 +1,16 @@
 @extends('layouts.main')
  
-@section('title', 'Detalle campaña')
+@section('title', 'Detalle campaña') 
 
 @section('start_css')
   @parent
   <link href="plugins/nvd3/nv.d3.min.css" rel="stylesheet" />
   <link href="{{ asset('plugins/DataTablesv2/datatables.css') }}" rel="stylesheet" />
   <link href="{{ asset('css/style-after.css') }}" rel="stylesheet" />
+  
+  
 
-
+  
 @endsection
  
 
@@ -89,6 +91,63 @@
                                             <!-- end col-3 -->    
                                         </div>
                             </div>
+                          <!-- inicio collapsible -->
+                             <div id="accordion" class="panel-group visible-sm visible-xs" >
+            
+                                <div class="panel panel-inverse overflow-hidden">
+                                  <div class="panel-heading">
+                                    <h3 class="panel-title">
+                                      <a class="accordion-toggle accordion-toggle-styled collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                          <i class="fa fa-plus-circle pull-right"></i> 
+                                        Incentivos
+                                      </a>
+                                    </h3>
+                                  </div>
+                                  <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                      <div class="recompensa" >
+                                          <span class="titulo-recompensa">Contribuir sin recompensa</span>
+                                          <p>
+                                            Realiza una contribución solidaria sin monto minimo de aportación
+                                          </p>
+                                          <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
+                                      </div>
+                                      <div class="recompensa" >
+                                          <span class="titulo-recompensa">Vestimenta para ancianos</span>
+                                          <p>
+                                            <b>Donación: </b> <br>Donaciones de 10 o más perndas de vestir para adultos de 30 a 60 años (pantalon, camisa, saco, entre otros mas).
+                                          </p>
+                                          <p>
+                                            <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales.
+                                          </p>
+                                          <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
+                                      </div>
+                                      <div class="recompensa" >
+                                          <span class="titulo-recompensa">Dinero para los cursos de capacitación</span>
+                                          <p>
+                                            <b>Donación: </b> <br>Donaciones de 50 a 100 dolares.
+                                          </p>
+                                          <p>
+                                            <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales. <br><br>Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
+                                          </p>
+                                          <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
+                                      </div>
+                                      <div class="recompensa" >
+                                          <span class="titulo-recompensa">Alimentación</span>
+                                          <p>
+                                            <b>Donación: </b> <br>Donaciones de 20 productos alimenticios.
+                                          </p>
+                                          <p>
+                                            <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales. <br><br>Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
+                                          </p>
+                                          <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                              </div>
+                          <!-- fin collapsible -->
                           
                             
                         </div>
@@ -237,7 +296,7 @@
 
                                           
             </div>
-            <div class="col-md-4" >
+            <div class="col-md-4 hidden-sm hidden-xs" >
 
                     
                 <!-- begin panel -->
@@ -304,7 +363,7 @@
 
 @section('end_js')
   @parent
-
+  
   <script src="{{ asset('js/Graficas_unidos_somos_mas/unidos_somos_mas_inicio.js') }}"></script>
   <script src="{{ asset('plugins/nvd3/nvd3.min.js') }}"></script>
 
@@ -355,8 +414,12 @@ $(document).ready(function(){
         //alert('La nueva pestaña ahora se muestra completamente.');
         window.dispatchEvent(new Event('resize'));
     });
+
     
 });
+</script>
+<script>
+  
 </script>
 
 
