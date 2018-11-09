@@ -22,13 +22,12 @@
               <div class="col-md-12">
                  <div class="panel-body">
                   <div class="row" style="text-align: center; color: #348fe2;">
-                    <strong><h3>Ayuda a los albergados del Albergue San Juan de Dios</h3> </strong><br>
+                    <strong><h3>Voluntarios para cuidado de ancianos del Albergue San Juan de Dios</h3> </strong><br>
                   </div>
                       <div class="row">
                         <div class="col-md-8">
-                          <div class="video-container" >
-                            <!-- PRA PONER LOS VIDEOS UNICAMENTE SE PONER LOS CARACTERES DESPUES DEL v= -->
-                            <iframe  src="https://www.youtube-nocookie.com/embed/noaz9sjDyic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="imagen-container"  >
+                            <img class="img-responsive" src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntario.png') }}" alt=""  >
                           </div> 
                         </div>
                         <div class="col-md-4">
@@ -36,18 +35,13 @@
                               <div class="panel panel-inverse" data-sortable-id="ui-typography-8">
                                         <div class="panel-heading">
                                            
-                                            <h4 class="panel-title">CONTRIBUCIONES</h4>
+                                            <h4 class="panel-title">Información General</h4>
                                         </div>
                                         <div class="panel-body">
-                                          
-                                            <ol>
-                                              <li>Alimentos</li>
-                                              <li>Vestimenta</li>
-                                              <li>Utiles escolares</li>
-                                              <li>Dinero</li>
-                                            </ol>
                                           <p>
-                                            Ubicacion: Quito, Pichincha <br>
+                                            Voluntarios Disponibles: 5 <br>
+                                            Ubicación: Quito, Pichincha <br>
+                                            Direccion: Carcelen <br>
                                             Autor: Daniel Naula
                                           </p>
                                              
@@ -59,8 +53,8 @@
                                               <div class="widget widget-stats bg-green" >
                                                 <div class="stats-icon"><i class="fa fa-heart"></i></div>
                                                 <div class="stats-info">
-                                                  <h4>Donaciones</h4>
-                                                  <p>25</p>  
+                                                  <h4>Voluntarios</h4>
+                                                  <p>5</p>  
                                                 </div>
                                               </div>
                                             </div>
@@ -71,7 +65,7 @@
                                                 <div class="stats-icon"><i class="fa fa-calendar"></i></div>
                                                 <div class="stats-info">
                                                   <h4>Dias restantes</h4>
-                                                  <p>15</p> 
+                                                  <p>10</p> 
                                                 </div>
                                               </div>
                                             </div>
@@ -105,40 +99,21 @@
                                   </div>
                                   <div id="collapseTwo" class="panel-collapse collapse">
                                     <div class="panel-body">
+                                     
                                       <div class="recompensa" >
                                           <span class="titulo-recompensa">Contribuir sin recompensa</span>
                                           <p>
-                                            Realiza una contribución solidaria sin monto minimo de aportación
+                                            Realiza voluntariado a esta campaña sin recompensa
                                           </p>
                                           <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
                                       </div>
                                       <div class="recompensa" >
-                                          <span class="titulo-recompensa">Vestimenta para ancianos</span>
+                                          <span class="titulo-recompensa">Voluntariado para cuidar ancianos</span>
                                           <p>
-                                            <b>Donación: </b> <br>Donaciones de 10 o más perndas de vestir para adultos de 30 a 60 años (pantalon, camisa, saco, entre otros mas).
+                                            <b>Donación: </b> <br>La persona que desee esta recompensa debe contar con disposición de 2 horas diarias de lunes a viernes durante 3 semanas.
                                           </p>
                                           <p>
-                                            <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales.
-                                          </p>
-                                          <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
-                                      </div>
-                                      <div class="recompensa" >
-                                          <span class="titulo-recompensa">Dinero para los cursos de capacitación</span>
-                                          <p>
-                                            <b>Donación: </b> <br>Donaciones de 50 a 100 dolares.
-                                          </p>
-                                          <p>
-                                            <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales. <br><br>Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
-                                          </p>
-                                          <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
-                                      </div>
-                                      <div class="recompensa" >
-                                          <span class="titulo-recompensa">Alimentación</span>
-                                          <p>
-                                            <b>Donación: </b> <br>Donaciones de 20 productos alimenticios.
-                                          </p>
-                                          <p>
-                                            <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales. <br><br>Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
+                                            <b> Recompensa: </b> <br> Tu nombre aparecerá en la lista de agradecimiento que se pública en redes sociales y ademas obtendras una carta de agradecimiento por el director del albergue.
                                           </p>
                                           <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
                                       </div>
@@ -159,7 +134,7 @@
                           
                               <ul class="nav nav-pills">
                                 <li class="active"><a href="#nav-pills-tab-1" data-toggle="tab">Campaña</a></li>
-                                <li><a href="#nav-pills-tab-2" data-toggle="tab">Donadores</a></li>
+                                <li><a href="#nav-pills-tab-2" data-toggle="tab">Voluntarios</a></li>
                                 <li><a href="#nav-pills-tab-3" data-toggle="tab">Estadisticas</a></li>
                                 <li><a href="#nav-pills-tab-4" data-toggle="tab">Comentarios</a></li>
                               </ul>
@@ -188,40 +163,40 @@
                                   </p>
                                 </div>
                                 <div class="tab-pane fade" id="nav-pills-tab-2">
-                                    <h3 class="m-t-10">Nav Pills Tab 2</h3>
+                                    <h3 class="m-t-10">Voluntarios</h3>
 
                                   <table id="data-table" class="table nowrap" width="100%">
                                     <thead>
-                                      <th>Donante</th>
-                                      <th>Fecha Donación</th>
-                                      <th>Donación</th>
+                                      <th>Voluntario</th>
+                                      <th>Fecha de registro</th>
+                                      
                                     </thead>
                                     <tbody>
                                       <tr>
                                         <td>Daniel Naula</td>
                                         <td>19/01/2018</td>
-                                        <td>Alimentos</td>
+                                        
                                       </tr>
                                       <tr>
                                         <td>Maria Belen Guaman</td>
                                         <td>31/01/2018</td>
-                                        <td>Vestimenta</td>
+                                       
                                       </tr>
                                       <tr>
                                         <td>Ines Guiñan</td>
                                         <td>05/02/2018</td>
-                                        <td>Alimentos</td>
+                                        
                                       </tr>
                                       <tr>
                                         <td>Alexander Naula</td>
                                         <td>14/02/2018</td>
-                                        <td>Dinero</td>
+                                        
                                       </tr>
                                     </tbody>
                                   </table>
                                 </div>
                                 <div class="tab-pane fade" id="nav-pills-tab-3">
-                                    <h3 class="m-t-10">Nav Pills Tab 3</h3>
+                                    <h3 class="m-t-10">Estadística</h3>
                                      
                                       <div  id="nv-stacked-area-chart" class="unidos-somos-mas-nv-chart height-lg">
                                         <svg ></svg>
@@ -256,7 +231,7 @@
                                           <p>
                                               <b>Maria Belen Guaman</b><br>
                                               <b>Comentario:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. <br>
-                                              <b>Recomienda Donar en la Campaña: </b> No
+                                              <b>Recomienda ser voluntario en la Campaña: </b> No
 
                                           </p>
                                         </td>
@@ -268,7 +243,7 @@
                                           <p>
                                               <b>Ines Guiñan</b><br>
                                               <b>Comentario:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. <br>
-                                              <b>Recomienda Donar en la Campaña: </b> Si
+                                              <b>Recomienda ser voluntario en la Campaña: </b> Si
 
                                           </p>
                                         </td>
@@ -280,7 +255,7 @@
                                           <p>
                                               <b>Alexander Naula</b><br>
                                               <b>Comentario:</b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ducimus, aliquam illo ea mollitia. <br>
-                                              <b>Recomienda Donar en la Campaña: </b> Si
+                                              <b>Recomienda ser voluntario en la Campaña: </b> Si
 
                                           </p>
     
@@ -309,40 +284,22 @@
                             <div class="recompensa" >
                                 <span class="titulo-recompensa">Contribuir sin recompensa</span>
                                 <p>
-                                  Realiza una contribución solidaria sin monto minimo de aportación
+                                  Realiza voluntariado a esta campaña sin recompensa
                                 </p>
                                 <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
                             </div>
                             <div class="recompensa" >
-                                <span class="titulo-recompensa">Vestimenta para ancianos</span>
+                                <span class="titulo-recompensa">Voluntariado para cuidar ancianos</span>
                                 <p>
-                                  <b>Donación: </b> <br>Donaciones de 10 o más perndas de vestir para adultos de 30 a 60 años (pantalon, camisa, saco, entre otros mas).
+                                  <b>Donación: </b> <br>La persona que desee esta recompensa debe contar con disposición de 2 horas diarias de lunes a viernes durante 3 semanas.
                                 </p>
                                 <p>
-                                  <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales.
-                                </p>
-                                <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
-                            </div>
-                            <div class="recompensa" >
-                                <span class="titulo-recompensa">Dinero para los cursos de capacitación</span>
-                                <p>
-                                  <b>Donación: </b> <br>Donaciones de 50 a 100 dolares.
-                                </p>
-                                <p>
-                                  <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales. <br><br>Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
+                                  <b> Recompensa: </b> <br> Tu nombre aparecerá en la lista de agradecimiento que se pública en redes sociales y ademas obtendras una carta de agradecimiento por el director del albergue.
                                 </p>
                                 <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
                             </div>
-                            <div class="recompensa" >
-                                <span class="titulo-recompensa">Alimentación</span>
-                                <p>
-                                  <b>Donación: </b> <br>Donaciones de 20 productos alimenticios.
-                                </p>
-                                <p>
-                                  <b> Recompensa: </b> <br> Tu nombre aparecera en la lista de agradecimientos que se publica en redes sociales. <br><br>Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
-                                </p>
-                                <a href="javascript:;" class="btn btn-warning btn-block">Donar</a>
-                            </div>
+                            
+                            
                         </div>
                     </div>
                     <!-- end panel -->

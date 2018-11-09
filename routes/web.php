@@ -17,24 +17,16 @@
  
 Route::get('/','PaginasController@inicio');
 
-Route::get('/resutadosBusqueda','PaginasController@resultadosBusqueda');
+Route::get('/resutados-busqueda','PaginasController@resultadosBusqueda');
 
-Route::get('/detalleCampaña','PaginasController@detalleCampaña');
+Route::get('/detalle-campaña-bienes','PaginasController@detalleCampañaBienes');
+
+Route::get('/detalle-campaña-voluntariado','PaginasController@detalleCampañaVoluntariado');
+//Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
 	return view('cn-pages.ui-tabs-accordions');
 	//return redirect('pages.dashboard-v2');
 });
-Route::get('/dashboard/v1', function () {
-    return view('pages/dashboard-v1');
-});
-Route::get('/email/inbox', function () {
-    return view('pages/email-inbox');
-});
-Route::get('/ui/modal-notification', function () {
-    return view('pages/ui-modal-notification');
-});
-Route::get('/ui/ionicons', function () {
-    return view('pages/ui-ionicons');
-});
+
 

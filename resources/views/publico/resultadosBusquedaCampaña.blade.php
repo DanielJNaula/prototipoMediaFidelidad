@@ -153,7 +153,7 @@
                               </div>
                               <div class="result-price">
                                 <small><i class="fa fa-map-marker"></i> Quito, Pichincha</small>
-                                <a href="/detalleCampaña" class="btn btn-primary btn-block">Ver Campaña</a>
+                                <a href="/detalle-campaña-bienes" class="btn btn-primary btn-block">Ver Campaña</a>
                               </div>
                             </li>
                       </ul>
@@ -209,6 +209,8 @@
                                   <a href="javascript:;" class="boton">
                                     <i class="fa fa-fw fa-calendar"><span class="tooltiptext">Dias restantes: 2</span></i>
                                   </a>
+                                  
+                                
                                 </div>
                               </div>
                               <div class="result-price">
@@ -307,12 +309,13 @@
   <script src="{{ asset('plugins/DataTablesv2/datatables.js') }}"></script>
    <script src="{{ asset('js/table-manage-responsive.demo.js') }}"></script>
   <!-- ================== END PAGE LEVEL JS ================== -->
-
+  
   <script>
 
     $(document).ready(function() {
       
       TablaCCPTHomelistado.init();
+
     });
 
   </script>

@@ -33,12 +33,13 @@
                     <br>
                     </div>
                 </div>
+                
 
                         <div class="panel-body text-center home_main_web_title">
 
                                   <div class="row">
                                       <div class="col-xs-8 col-xs-offset-2">
-                                          <form method="GET" action="/resutadosBusqueda" id="searchForm" class="search-home input-group">
+                                          <form method="GET" action="resutados-busqueda" id="searchForm" class="search-home input-group">
                                               
                                               <input id="buscar_general" type="text" class="form-control" name="parametro" placeholder="Busca los proyectos en los que deseas ayudar con contribucion de bienes o servicio">
                                               <span class="input-group-btn">
@@ -120,7 +121,7 @@
                                 <li >12 <br> <span>Dias restantes</span></li>
                               </ul>
                           </div>
-                          <a href="/detalleCampaña" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                          <a href="/detalle-campaña-bienes" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
 
                         </div>
                         <!-- end image -->
@@ -156,7 +157,7 @@
                                 <li >12 <br> <span>Dias restantes</span></li>
                               </ul>
                           </div>
-                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                          <a href="/detalle-campaña-bienes" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
                         </div>
                         <!-- end image -->
                         <!-- begin image -->
@@ -192,7 +193,7 @@
                                 <li >12 <br> <span>Dias restantes</span></li>
                               </ul>
                           </div>
-                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                          <a href="/detalle-campaña-bienes" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
                         </div>
                         <!-- end image -->
                         <!-- begin image -->
@@ -227,7 +228,7 @@
                                 <li >12 <br> <span>Dias restantes</span></li>
                               </ul>
                           </div>
-                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
+                          <a href="/detalle-campaña-bienes" class="btn btn-info btn-block"><i class="fa fa fa-heart"></i> Detalle Campaña</a>
                         </div>
                         <!-- end image -->
                         
@@ -297,7 +298,7 @@
                                 <li >12 <br> <span>Dias restantes</span></li>
                               </ul>
                           </div>
-                          <a href="javascript:;" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
+                          <a href="/detalle-campaña-voluntariado" class="btn btn-info btn-block"><i class="fa fa fa-users"></i> Detalle Campaña</a>
 
                         </div>
                         <!-- end image -->

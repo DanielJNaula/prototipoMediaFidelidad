@@ -66,7 +66,9 @@
 		@section('end_js')
 			<!-- ================== BEGIN BASE JS ================== -->
 
+			
 			<script src="{{ asset('plugins/jquery/jquery-3.3.1.min.js') }}"></script>
+			<script src="{{ asset('js/popper.min.js') }}"></script>
 			<script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 			<script src="/cn-assets/js/theme/default.js"></script>
 
@@ -93,11 +95,11 @@
 
 
 		@show
-
+	
 	<script>
 	    $(document).ready(function() {
 	        App.init();
-
+	        
 	    });
 	</script>
 	

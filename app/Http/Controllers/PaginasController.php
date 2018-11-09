@@ -11,8 +11,12 @@ use App\CnTipoCifraNacional;
 
 class PaginasController extends Controller
 {
-    public function detalleCampaña(){
-        return view('publico.detalleCampaña');
+    public function detalleCampañaVoluntariado(){
+        return view('publico.detalleCampañaVoluntariado');
+    }
+
+    public function detalleCampañaBienes(){
+        return view('publico.detalleCampañaBienes');
     }
 
     public function resultadosBusqueda(){

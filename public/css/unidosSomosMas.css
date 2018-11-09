@@ -205,6 +205,17 @@ footer{
     text-align: justify !important;
 }
 
+.imagen-container {
+     margin-bottom: 10px;
+}
+
+.imagen-container img{
+    
+    height: 350px; 
+    display: block; 
+    margin: auto;
+}
+
 /* -----------------------------------------------
 ------------ Estrellas de valoración -------------
 ----------------------------------------------- */
