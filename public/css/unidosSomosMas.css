@@ -216,6 +216,84 @@ footer{
     margin: auto;
 }
 
+
+/* -----------------------------------------------
+------------        Recompensas: ;   -------------
+----------------------------------------------- */
+
+.reward ul,li{
+  list-style:none outside none
+}
+.project-form-headline h3{
+  margin-top:0;font-weight:600
+}
+.reward-list ul{
+  padding:0;
+  margin:0;
+}
+
+.reward span,.reward label{
+  display:block;
+  font-weight:400
+}
+.reward .reward-media{
+  background-color:#fcfcfc;
+  margin-bottom:10px;
+  padding:15px;
+  cursor:pointer;
+  position:relative;
+  border:1px solid transparent
+  }
+.reward .reward-media:hover{
+  border:1px solid #ddd
+  }
+.reward .reward-body{
+  margin-left:40px;
+  text-align: justify;
+  }
+
+.reward .reward-title{
+  font-size:15px;
+  font-weight:700;
+  margin-bottom:10px;
+
+  }
+.reward .reward-descrip{
+  margin-bottom:15px
+  }
+.reward .reward-note{
+  font-size:11px
+  }
+  .reward .reward-claimed{
+  margin-bottom:5px
+  }
+
+  .reward .indicator{
+  position:absolute;
+  left:0;
+  bottom:0;
+  background-color:#ef4f5d;
+  padding:5px 10px;
+  color:#fff;
+  display:none
+  }
+.reward input[type=radio]:checked+.reward-media{
+    border:1px solid #ef4f5d;
+
+    }
+.reward input[type=radio]:checked+.reward-media .indicator{
+      display:block
+
+      }
+.reward .reward-amount{
+  float:left;
+  margin-right:15px;
+  width:120px;
+  font-weight:700;
+  font-size:20px;
+  color:#ef4f5d
+  }
+
 /* -----------------------------------------------
 ------------ Estrellas de valoración -------------
 ----------------------------------------------- */

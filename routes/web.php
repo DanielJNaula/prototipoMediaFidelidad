@@ -22,6 +22,8 @@ Route::get('/resutados-busqueda','PaginasController@resultadosBusqueda');
 Route::get('/detalle-campaña-bienes','PaginasController@detalleCampañaBienes');
 
 Route::get('/detalle-campaña-voluntariado','PaginasController@detalleCampañaVoluntariado');
+
+Route::get('/detalle-campaña-bienes/donar','PaginasController@visualizarFomularioDonarCampañaBienes');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

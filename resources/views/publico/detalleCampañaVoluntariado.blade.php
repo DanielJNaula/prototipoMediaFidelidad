@@ -27,7 +27,7 @@
                       <div class="row">
                         <div class="col-md-8">
                           <div class="imagen-container"  >
-                            <img class="img-responsive" src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntario.png') }}" alt=""  >
+                            <img class="img-responsive img-thumbnail" src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntario.png') }}" alt=""  >
                           </div> 
                         </div>
                         <div class="col-md-4">
