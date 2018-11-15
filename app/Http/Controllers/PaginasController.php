@@ -8,12 +8,19 @@ use DB;
 use Illuminate\Support\Collection as Collection;
 use App\CnCifrasNacionales;
 use App\CnTipoCifraNacional;
+use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
     
     public function visualizarFomularioDonarCampañaBienes(){
-        return view('publico.donarCampañaBienes');
+        /*$config['center']='Air Canada Centre, Toronto';
+        $config['zoom']='14';
+        $config['map_height']='500px';
+        $config['scrollwheel']= false;
+        GMaps::initialize($config);
+        $map = GMaps::create_map();*/
+        return view('publico.donarCampañaBienes')/*->with(['map'=>$map])*/;
     }
 
     public function detalleCampañaVoluntariado(){
