@@ -4,7 +4,7 @@
 
 @push('css')
   <link href="/assets/plugins/parsleyjs/src/parsley.css" rel="stylesheet" />
-  
+
 @endpush
  
 
@@ -119,7 +119,7 @@
                                     <label class="control-label " for="message">Phone :</label>
                                     <input class="form-control" type="text" id="data-phone" data-parsley-type="number" placeholder="(XXX) XXXX XXX" />
                                    </div>
-                                  
+                                  {!! $map['html']!!}
                                   <br><br>
                                     
                                     <div style="text-align: center;">
@@ -149,6 +149,7 @@
   <script src="/assets/plugins/parsleyjs/dist/parsley.js"></script>
   <script src="/assets/plugins/highlight/highlight.min.js"></script>
   <script src="/assets/js/demo/render.highlight.js"></script>
+  {!! $map['js']!!}
   <script>
     $(document).ready(function() {
       Highlight.init();

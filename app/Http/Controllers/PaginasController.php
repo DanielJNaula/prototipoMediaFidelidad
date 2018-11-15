@@ -14,13 +14,20 @@ class PaginasController extends Controller
 {
     
     public function visualizarFomularioDonarCampañaBienes(){
-        /*$config['center']='Air Canada Centre, Toronto';
-        $config['zoom']='14';
-        $config['map_height']='500px';
-        $config['scrollwheel']= false;
-        GMaps::initialize($config);
-        $map = GMaps::create_map();*/
-        return view('publico.donarCampañaBienes')/*->with(['map'=>$map])*/;
+        
+        $config['center'] = 'Ecuador,Quito';
+        $config['zoom'] = '14';
+        $config['map_height'] = '400px';
+
+        $gmap = new GMaps();
+        $gmap->initialize($config);
+     
+        $marker['position'] = 'Ecuador,Quito';
+        $marker['infowindow_content'] = 'Ecuador,Quito';
+
+        $gmap->add_marker($marker);
+        $map = $gmap->create_map();
+        return view('publico.donarCampañaBienes')->with(['map'=>$map]);
     }
 
     public function detalleCampañaVoluntariado(){
