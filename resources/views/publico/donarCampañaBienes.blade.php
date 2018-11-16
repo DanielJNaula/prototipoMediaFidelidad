@@ -104,7 +104,7 @@
                           </li>
                           <li class="reward">
                             <label>
-                              <input name="perks" type="radio" class="radioClass sr-only" value="0" onclick="valdiateperks()" checked="checked/">
+                              <input name="perks" type="radio" class="radioClass sr-only" value="0"  checked="checked/">
                               <span class="reward-media">
                                 <span class="indicator"><i class="fa fa-2x fa-check-square-o"></i></span>
                                 <span class="reward-amount"></span>
@@ -147,6 +147,7 @@
                                     
                                    </div>
                                   {!! $map['html']!!}
+                                  <div id="directionsDiv"></div>
                                   <br><br>
                                     
                                     <div style="text-align: center;">
