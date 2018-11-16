@@ -2395,7 +2395,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
   Parsley.addMessages('en', {
     defaultMessage: "This value seems to be invalid.",
     type: {
-      email: "This value should be a valid email.",
+      email: "Ingrese un correo electronico válido.",
       url: "This value should be a valid url.",
       number: "Ingrese un numero telefónico valido.",
       integer: "This value should be a valid integer.",

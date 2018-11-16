@@ -12,7 +12,16 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
-    
+    public function recomendacionesCampañas(){
+        
+      return view('donador.recomendacionesCampañas');
+
+    }
+    public function visualizarFomularioVoluntariadoCampaña(){
+        
+      return view('donador.donarCampañaVoluntariado');
+
+    }
     public function visualizarFomularioDonarCampañaBienes(){
         
         $config['center'] = '-0.269088, -78.566107';
@@ -32,7 +41,7 @@ class PaginasController extends Controller
 
         $gmap->add_marker($marker);*/
         $map = $gmap->create_map();
-        return view('publico.donarCampañaBienes')->with(['map'=>$map]);
+        return view('donador.donarCampañaBienes')->with(['map'=>$map]);
     }
 
     public function detalleCampañaVoluntariado(){

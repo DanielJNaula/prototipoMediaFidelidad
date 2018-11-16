@@ -24,6 +24,10 @@ Route::get('/detalle-campaña-bienes','PaginasController@detalleCampañaBienes')
 Route::get('/detalle-campaña-voluntariado','PaginasController@detalleCampañaVoluntariado');
 
 Route::get('/detalle-campaña-bienes/donar','PaginasController@visualizarFomularioDonarCampañaBienes');
+
+Route::get('/detalle-campaña-voluntariado/donar','PaginasController@visualizarFomularioVoluntariadoCampaña');
+
+Route::get('/recomendaciones-campañas-bienes-voluntariado','PaginasController@recomendacionesCampañas');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

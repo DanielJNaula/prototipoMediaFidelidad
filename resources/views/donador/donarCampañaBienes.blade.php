@@ -32,7 +32,8 @@
                         
                             <form class="form-horizontal form-bordered" data-parsley-validate="true" name="demo-form">
                                   <div class="reward-list">
-                          <span style="color: #2884F5 ;"><b> <h4>Selecciona tu incentivo</h4></b></span>
+                          
+                          <h3><span style="color: #348fe2"> <strong> Selecciona tu incentivo</strong></span></h3>
                           <ul>
                             <li class="reward">
                               <label>
@@ -122,7 +123,8 @@
                         </div> 
                                     <br>
 
-                        <span style="color: #2884F5;"><b><h4>Detalle de donación</h4></b></span><br>
+                        
+                        <h3><span style="color: #348fe2"> <strong> Detalle de donación</strong></span></h3><br>
                                     <div style="border: #D7DBDD 1px solid; padding: 1%">  
                                     
                                     <label class="control-label" for="tituloDonacion">Titulo de donación * :</label>
@@ -151,7 +153,7 @@
                                   <br><br>
                                     
                                     <div style="text-align: center;">
-                                      <button type="submit" class="btn btn-primary">Submit</button>
+                                      <button type="submit" class="btn btn-primary">Donar a la campaña</button>
                                     </div>
                                   
                             </form>
