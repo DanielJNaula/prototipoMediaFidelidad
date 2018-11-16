@@ -2397,13 +2397,13 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
     type: {
       email: "This value should be a valid email.",
       url: "This value should be a valid url.",
-      number: "This value should be a valid number.",
+      number: "Ingrese un numero telefónico valido.",
       integer: "This value should be a valid integer.",
       digits: "This value should be digits.",
       alphanum: "This value should be alphanumeric."
     },
     notblank: "This value should not be blank.",
-    required: "This value is required.",
+    required: "El valor es Requerido",
     pattern: "This value seems to be invalid.",
     min: "This value should be greater than or equal to %s.",
     max: "This value should be lower than or equal to %s.",

@@ -27,7 +27,7 @@ Route::get('/detalle-campaña-bienes/donar','PaginasController@visualizarFomular
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
-	return view('cn-pages.ui-tabs-accordions');
+	return view('cn-pages.form-validation');
 	//return redirect('pages.dashboard-v2');
 });
 

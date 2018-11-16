@@ -4,9 +4,7 @@
 
 @push('css')
   <link href="/assets/plugins/parsleyjs/src/parsley.css" rel="stylesheet" />
-
 @endpush
- 
 
 
 @section('contenido') 
@@ -18,9 +16,11 @@
 
                   <div class="row" >
                     <div style="text-align: center; color: #348fe2;">
-                      <strong><h3>Ayuda a los albergados del Albergue San Juan de Dios</h3> </strong><br>  
+                      <strong><h3>Ayuda a los albergados del Albergue San Juan de Dios</h3> </strong>
+                      <strong><h4>Ubicación: Quito, Ecuador</h4> </strong>
+                      <strong><h4>Autor: Daniel Naula</h4> </strong>
                     </div>
-                    
+                    <br><br>
 
                     <div class="col-md-2">
                       
@@ -32,6 +32,7 @@
                         
                             <form class="form-horizontal form-bordered" data-parsley-validate="true" name="demo-form">
                                   <div class="reward-list">
+                          <span style="color: #2884F5 ;"><b> <h4>Selecciona tu incentivo</h4></b></span>
                           <ul>
                             <li class="reward">
                               <label>
@@ -40,14 +41,17 @@
                                 <span class="reward-media">
                                   <span class="indicator"><i class="fa fa-2x fa-check-square-o"></i></span>
                                   <span class="reward-body">
-                                    <span class="reward-title">SCI - FI 0</span>
-                                    <span class="reward-descrip">$10 Sticker de 8x8 cm Confederación Galáctica.<br>
-                                      <br>
+                                    <span class="reward-title">Vestimenta para Ancianos</span>
+                                    <span class="reward-descrip">
+
+                                      <strong>Descripción:</strong><br>
+                                      Donaciones de 10 o más prendas de vestir para adultos de 30 a 80 años (pantalon, camisa ó camiseta, saco). <br><br>
+
+                                      <strong>Recompensa:</strong><br>
+                                      Tu nombre aparecerá en la lista de agradecimiento que se pública en redes sociales.
+                                      
                                     </span>
-                                    <span class="reward-note">
-                                      <span class="reward-claimed"><strong>1</strong> reclamados</span>
-                                      <span class="delivery-date">Entrega estimada : 20/01/2019</span>
-                                    </span>
+                                    
                                   </span>
                                 </span>
                               </label>
@@ -55,17 +59,45 @@
                           <li class="reward">
                             <label>
                               <input name="is_shipp_784" id="is_shipp_784" type="hidden" value="1">
-                              <input name="perks" type="radio" class="radioClass sr-only" value="784" onclick="valdiateperks()">
+                              <input name="perks" type="radio" class="radioClass sr-only" value="784" ">
                               <span class="reward-media">
                                 <span class="indicator"><i class="fa fa-2x fa-check-square-o"></i></span>
                                 
                                 <span class="reward-body">
-                                  <span class="reward-title">SCI - FI 1</span>
-                                  <span class="reward-descrip">$20 Postal imágenes (VERSIONES ÚNICAS) + POSTER mediano con firma de un miembro de los trece guerreros, actor.</span>
-                                  <span class="reward-note">
-                                    <span class="reward-claimed"><strong>0</strong> reclamados</span>
-                                    <span class="delivery-date">Entrega estimada : 20/01/2019</span>
+                                  <span class="reward-title">Dinero para los cursos de capacitacion</span>
+                                  <span class="reward-descrip">
+                                      <strong>Descripción:</strong><br>
+                                      Donaciones entre 50 a 100 dolares <br> <br>
+
+                                      <strong>Recompensa:</strong><br>
+                                      Tu nombre aparecerá en la lista de agradecimiento que se pública en redes sociales. <br> 
+                                      Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donacion.
+
                                   </span>
+                                  
+                                </span>
+                              </span>
+                            </label>
+                          </li>
+                          <li class="reward">
+                            <label>
+                              <input name="is_shipp_784" id="is_shipp_784" type="hidden" value="1">
+                              <input name="perks" type="radio" class="radioClass sr-only" value="784" ">
+                              <span class="reward-media">
+                                <span class="indicator"><i class="fa fa-2x fa-check-square-o"></i></span>
+                                
+                                <span class="reward-body">
+                                  <span class="reward-title">Alimientación</span>
+                                  <span class="reward-descrip">
+                                      <strong>Descripción:</strong><br>
+                                      Donaciones de 16 productos alimenticios <br> <br>
+
+                                      <strong>Recompensa:</strong><br>
+                                      Tu nombre aparecerá en la lista de agradecimiento que se pública en redes sociales. <br> 
+                                      Te entregaremos una carta de agradecimiento personalizada al momento de retirar la donación.
+
+                                  </span>
+                                  
                                 </span>
                               </span>
                             </label>
@@ -77,47 +109,42 @@
                                 <span class="indicator"><i class="fa fa-2x fa-check-square-o"></i></span>
                                 <span class="reward-amount"></span>
                                 <span class="reward-body">
-                                  <span class="reward-title" ">Ningun Incentivo, solo una donación !</span>
+                                  <span class="reward-title" ">Contribuir sin recompensa</span>
+                                  <span class="reward-descrip">
+                                      <strong>Ningun Incentivo, solo Donación</strong>
+
+                                  </span>
                                 </span>
                               </span>
                             </label>
                             </li>
                           </ul>
                         </div> 
-                                    <br><br>
+                                    <br>
+
+                        <span style="color: #2884F5;"><b><h4>Detalle de donación</h4></b></span><br>
                                     <div style="border: #D7DBDD 1px solid; padding: 1%">  
-                                    <label class="control-label" for="fullname">Full Name * :</label>
+                                    
+                                    <label class="control-label" for="tituloDonacion">Titulo de donación * :</label>
+                                    <input class="form-control" type="text" id="tituloDonacion" name="tituloDonacion" placeholder="Escriba un título a la donacion. Ejemplo: Vestimenta para ancianos" data-parsley-required="true" />
+                                    
+                                    <label class="control-label " for="message">Telefono :</label>
+                                    <input class="form-control" type="text" id="data-phone" data-parsley-type="number" data-parsley-required="true" placeholder="Escriba un número telefónico al cual se puede contactar para el retiro de la donación." />
+                
+                                    <label class="control-label" for="descripcionDonacion">Descripción de donación :</label>
+                                    <textarea class="form-control" id="descripcionDonacion" name="descripcionDonacion" rows="4" data-parsley-required="true"   placeholder="Describa la donación que desea contribuir"></textarea>
+
+                                    <label class="control-label" for="horarioRetiroDonacion">Descripción de los días y el horario del retiro de la donación :</label>
+                                    <textarea class="form-control" id="horarioRetiroDonacion" name="horarioRetiroDonacion" rows="4"  data-parsley-required="true" placeholder="Describa los dias y el horario en el que se pueda realizar el retiro de la donacion"></textarea>
+                                  
+                                     <label class="control-label" for="direccionDonacion">Direccion del retiro de la donación * :</label>
+                                    <input class="form-control" type="text" id="direccionDonacion" name="direccionDonacion" placeholder="Escriba la direccción del retiro de la donación." data-parsley-required="true" />
                                    
-                                      <input class="form-control" type="text" id="fullname" name="fullname" placeholder="Required" data-parsley-required="true" />
-                                    
-                                  
-                                  
-                                    <label class="control-label " for="email">Email * :</label>
-                                    <input class="form-control" type="text" id="email" name="email" data-parsley-type="email" placeholder="Email" data-parsley-required="true" />
-                                   
-                                  
-                                  
-                                    <label class="control-label " for="website">Website :</label>
-                                    <input class="form-control" type="url" id="website" name="website" data-parsley-type="url" placeholder="url" />
-                                    
-                                 
-                                    <label class="control-label" for="message">Message (20 chars min, 200 max) :</label>
-                                    <textarea class="form-control" id="message" name="message" rows="4" data-parsley-range="[20,200]" placeholder="Range from 20 - 200"></textarea>
-                                    
-                                 
-                                  
-                                    <label class="control-label " for="message">Digits :</label>
-                                    <input class="form-control" type="text" id="digits" name="digits" data-parsley-type="digits" placeholder="Digits" />
-                                    
-                                  
-                                  
-                                    <label class="control-label " for="message">Number :</label>
-                                    <input class="form-control" type="text" id="number" name="number" data-parsley-type="number" placeholder="Number" />
+
                                     
 
 
-                                    <label class="control-label " for="message">Phone :</label>
-                                    <input class="form-control" type="text" id="data-phone" data-parsley-type="number" placeholder="(XXX) XXXX XXX" />
+                                    
                                    </div>
                                   {!! $map['html']!!}
                                   <br><br>
@@ -146,10 +173,10 @@
 @endsection 
 
 @push('scripts')
+  {!! $map['js']!!}
   <script src="/assets/plugins/parsleyjs/dist/parsley.js"></script>
   <script src="/assets/plugins/highlight/highlight.min.js"></script>
   <script src="/assets/js/demo/render.highlight.js"></script>
-  {!! $map['js']!!}
   <script>
     $(document).ready(function() {
       Highlight.init();

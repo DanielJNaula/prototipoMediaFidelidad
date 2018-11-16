@@ -219,12 +219,12 @@
 		<!-- end col-6 -->
 	</div>
 	<!-- end row -->
-@endsection
+@endsection 
 
 @push('scripts')
-	<script src="/assets/plugins/parsleyjs/dist/parsley.js"></script>
-	<script src="/assets/plugins/highlight/highlight.min.js"></script>
-	<script src="/assets/js/demo/render.highlight.js"></script>
+	<script src="/cn-assets/plugins/parsleyjs/dist/parsley.js"></script>
+	<script src="/cn-assets/plugins/highlight/highlight.min.js"></script>
+	<script src="/cn-assets/js/demo/render.highlight.js"></script>
 	<script>
 		$(document).ready(function() {
 			Highlight.init();
