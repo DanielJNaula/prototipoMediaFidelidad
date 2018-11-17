@@ -11252,7 +11252,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Observar _MENU_ registros",
+			"sLengthMenu": "Mostrar _MENU_ registros",
 	
 	
 			/**

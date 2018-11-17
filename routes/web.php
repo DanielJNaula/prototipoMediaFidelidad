@@ -28,10 +28,12 @@ Route::get('/detalle-campaña-bienes/donar','PaginasController@visualizarFomular
 Route::get('/detalle-campaña-voluntariado/donar','PaginasController@visualizarFomularioVoluntariadoCampaña');
 
 Route::get('/recomendaciones-campañas-bienes-voluntariado','PaginasController@recomendacionesCampañas');
+
+Route::get('/mis-donaciones','PaginasController@visualizarMisDonaciones');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
-	return view('cn-pages.form-validation');
+	return view('cn-pages.table-manage-buttons');
 	//return redirect('pages.dashboard-v2');
 });
 

@@ -905,7 +905,7 @@ ColVis.defaults = {
 	 *  @type     string
 	 *  @default  Show / hide columns
 	 */
-	buttonText: 'Show / hide columns',
+	buttonText: 'Mostrar / Ocultar Columnas',
 
 	/**
 	 * List of columns (integers) which should be excluded from the list
