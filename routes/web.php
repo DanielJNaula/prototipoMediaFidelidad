@@ -29,7 +29,9 @@ Route::get('/detalle-campaña-voluntariado/donar','PaginasController@visualizarF
 
 Route::get('/recomendaciones-campañas-bienes-voluntariado','PaginasController@recomendacionesCampañas');
 
-Route::get('/mis-donaciones','PaginasController@visualizarMisDonaciones');
+Route::get('/visualizar-mis-donaciones','PaginasController@visualizarMisDonaciones');
+
+Route::get('/visualizar-mis-comentarios','PaginasController@visualizarMisComentarios');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
