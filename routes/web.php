@@ -32,6 +32,8 @@ Route::get('/recomendaciones-campañas-bienes-voluntariado','PaginasController@r
 Route::get('/visualizar-mis-donaciones','PaginasController@visualizarMisDonaciones');
 
 Route::get('/visualizar-mis-comentarios','PaginasController@visualizarMisComentarios');
+
+Route::get('/visualizar-mis-campañas','PaginasController@visualizarMisCampañas');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
