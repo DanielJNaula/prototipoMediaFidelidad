@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.mainUsuarioLogueado')
  
-@section('title', 'Detalle campaña') 
+@section('title', 'Mis comentarios') 
 
 @section('start_css')
   @parent

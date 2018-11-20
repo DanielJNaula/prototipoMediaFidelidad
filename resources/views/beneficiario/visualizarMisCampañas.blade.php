@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.mainUsuarioLogueado')
  
-@section('title', 'Mis Donaciones') 
+@section('title', 'Mis Campañas') 
 
 @push('css')
   
@@ -32,7 +32,12 @@
      
       <!-- begin row -->
       <div class="row">
-          
+          <div class="panel-body pull-right">
+                          <button type="button" class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</button>
+                          <button type="button" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</button>
+                          
+                          
+            </div>
           <!-- begin col-10 -->
           <div class="col-md-12">
               <!-- begin panel -->

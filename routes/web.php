@@ -37,7 +37,7 @@ Route::get('/visualizar-mis-campañas','PaginasController@visualizarMisCampañas
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
-	return view('cn-pages.table-manage-buttons');
+	return view('cn-pages.ui-buttons');
 	//return redirect('pages.dashboard-v2');
 });
 
