@@ -45,7 +45,7 @@
                             <!-- inicio informacion general -->
                                 <div class="panel panel-inverse" data-sortable-id="ui-typography-8">
                                         <div class="panel-heading">
-                                            <h4 class="panel-title">Información de donación</h4>
+                                            <h4 class="panel-title">Información general de campaña</h4>
                                         </div>
                                         <!-- inicio panel --> 
                                         <div class="panel-body">
