@@ -1,6 +1,6 @@
 @extends('layouts.mainUsuarioLogueado')
  
-@section('title', 'Mis Campañas') 
+@section('title', 'Donadores campaña') 
 
 @push('css')
   

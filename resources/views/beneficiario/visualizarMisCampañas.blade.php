@@ -2,7 +2,7 @@
  
 @section('title', 'Mis Campañas') 
 
-@push('css')
+@push('css') 
   
   <link href="{{ asset('css/style-responsive.min.css') }}" rel="stylesheet" />
   <link href="{{ asset('plugins/DataTables/css/data-table.css') }}" rel="stylesheet" />
@@ -69,7 +69,7 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -85,7 +85,7 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -101,7 +101,7 @@
                                             <td class="text-center celda-acciones">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -117,7 +117,7 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -133,7 +133,7 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -149,7 +149,7 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -165,7 +165,7 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
@@ -181,13 +181,43 @@
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-times-circle"></i></a>
+                                              <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                        
                                     </tbody>
                                 </table>
+                                <!-- #modal-alert -->
+                                        <div class="modal fade" id="modal-alert">
+                                          <div class="modal-dialog">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                <h4 class="modal-title">Eliminar campaña</h4>
+                                              </div>
+                                              <div class="modal-body">
+                                                <div class="alert alert-danger m-b-0">
+                                                  <h4><i class="fa fa-info-circle"></i> Usted desea eliminar la siguiente campaña </h4>
+                                                  <p >
+                                                    <strong>Nombre Campaña:</strong> colaboracion a los ancianos del albergue San Juan de Dios <br>
+                                                    <strong>codigo:</strong>1 <br>
+                                                    <strong>imagen:</strong><br><img class="imagen-campaña" src="{{ asset('imagenes/imagenes_campañas/campañas_voluntariado/voluntariado4.jpg') }}" alt=""> <br>
+
+                                                    <strong>Tipo campaña:</strong> Donacion de Bienes <br> 
+                                                    <strong>Descripcion corta:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis provident numquam, quo nemo ipsa error facere inventore itaque dolorem quos odio alias possimus atque delectus asperiores, impedit, culpa ipsum neque. <br>
+                                                    
+                                                  </p>
+                                                </div>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <a href="javascript:;" class="btn btn-sm btn-white" data-dismiss="modal">Cerrar</a>
+                                                <a href="javascript:;" class="btn btn-sm btn-danger" data-dismiss="modal">Eliminar campaña</a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    <!-- fin #modal-alert -->
                             </div>
                         </div>
                     
@@ -226,7 +256,7 @@
   <script src="{{ asset('plugins/DataTables/js/jquery.dataTables.js') }}"></script>
   <script src="{{ asset('plugins/DataTables/js/dataTables.colVis.js') }}"></script>
   <script src="{{ asset('js/table-manage-colvis.demo.min.js') }}"></script>
-  
+  <script src="{{ asset('js/ui-modal-notification.demo.min.js') }}"></script>
   
   
   <!-- ================== END PAGE LEVEL JS ================== -->
@@ -235,6 +265,12 @@
     $(document).ready(function() {
      
       TableManageColVis.init();
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      
+      Notification.init();
     });
   </script>
 @endpush
