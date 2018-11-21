@@ -63,10 +63,17 @@
 
 		<div class="collapse navbar-collapse pull-right" id="top-navbar">
 				<ul class="nav navbar-nav">
-					<li>
-							<a href="#">
-									<i class="fa fa-user fa-fw"></i> Ingresar
-							</a>
+					
+					<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+														<i class="fa fa-user fa-fw"></i>Nombre Usuario<b class="caret"></b>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+														
+														<li><a href="#">Mi perfil</a></li>
+														<li><a href="#">Editar perfil</a></li>
+														<li><a href="#">Cerrar sesión</a></li>
+												</ul>
 					</li>
 				</ul>
 		</div>
@@ -112,11 +119,26 @@
 				</ul>
 			</li>
 			<li class="has-sub">
-				<a href="#">
-						
-						<span>Crear Proyecto</span>
+				<a href="/visualizar-mis-campañas">Mis Campañas</a>
+			</li>
+
+			<li class="has-sub">
+				<a href="/visualizar-mis-comentarios">Mis Comentarios</a>
+			</li>
+			<li class="has-sub">
+				<a href="/visualizar-mis-donaciones">Mis Donaciones</a>
+			</li>
+			<li class="has-sub">
+				<a href="javascript:;">
+						<b class="caret pull-right"></b>
+						<span>Nombre Usuario</span>
 					</a>
-				
+				<ul class="sub-menu">					
+					<li><a href="#">Mi perfil</a></li>
+					<li><a href="#">Editar perfil</a></li>
+					<li><a href="#">Cerrar sesión</a></li>
+					
+				</ul>
 			</li>
 			
 

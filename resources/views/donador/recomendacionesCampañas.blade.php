@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.mainUsuarioLogueado')
 
-@section('title', 'Homepage')
+@section('title', 'Recomendaciones')
 
 
 

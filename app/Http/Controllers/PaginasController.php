@@ -13,6 +13,27 @@ use FarhanWazir\GoogleMaps\GMaps;
 class PaginasController extends Controller
 {
     
+    public function visualizarDetalleDonacion(){
+
+        $config['center'] = '-0.269088, -78.566107';
+        $config['zoom'] = 'auto';
+        $config['map_height'] = '400px';
+
+        $gmap = new GMaps();
+        $gmap->initialize($config);
+     
+        $marker['position'] = '-0.276823, -78.583350';
+        $marker['infowindow_content'] = 'TE AMO MI BONITA EL JUEVES TE ESPERO AQUI';
+        
+
+
+        $gmap->add_marker($marker);
+        $map = $gmap->create_map();
+        
+      return view('donador.visualizarDetalleDonacion')->with(['map'=>$map]);
+
+    }
+
     public function visualizarMisCampañas(){
         
       return view('beneficiario.visualizarMisCampañas');

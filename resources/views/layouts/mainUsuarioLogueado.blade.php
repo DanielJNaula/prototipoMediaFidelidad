@@ -48,7 +48,7 @@
     <!-- Styles -->
 
 	@stack('css')
-	</head>
+	</head> 
 
 	<body  >
 

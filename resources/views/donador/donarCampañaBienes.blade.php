@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.mainUsuarioLogueado')
  
 @section('title', 'Detalle campaña') 
 

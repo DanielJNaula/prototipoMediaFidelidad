@@ -296,6 +296,22 @@ footer{
   color:#ef4f5d
   }
 /* -----------------------------------------------
+----- informacion general detalle donacion ------
+----------------------------------------------- */
+
+.subtitulo-info-general{
+  background-color: #f3f3f3;
+  padding:5px 5px 5px 15px;
+}
+.informacion-campaña{
+  padding-left:8%;
+  padding-right:4%;
+  text-align: justify;
+}
+.detalle-donacion{
+  line-height: 27px;
+}
+/* -----------------------------------------------
 ------------ imagenes en tabla campaña -------------
 ----------------------------------------------- */
 .imagen-campaña{

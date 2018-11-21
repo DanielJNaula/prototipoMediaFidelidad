@@ -19,25 +19,23 @@
                  <div class="panel-body">
 
                   <div class="row" >
-                   
-
-                    
 
                     <div class="col-md-12">
                       <h3><span style="color: #348fe2"> <strong> Mis Campañas</strong></span></h3>
                     <br>
+                    <div class="panel-body pull-right">
+                          <button type="button" class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</button>
+                          <button type="button" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</button>        
+                    </div>
+                    </div>
+                  </div>
                       <!-- begin #content -->
     <div id="content" class="content">
       
      
       <!-- begin row -->
       <div class="row">
-          <div class="panel-body pull-right">
-                          <button type="button" class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</button>
-                          <button type="button" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</button>
-                          
-                          
-            </div>
+          
           <!-- begin col-10 -->
           <div class="col-md-12">
               <!-- begin panel -->
@@ -201,14 +199,14 @@
     </div>
     <!-- end #content -->
                   
-                    </div>
-                  </div>
+                    
                       
-                      
+                     <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade show" data-click="scroll-top"><i class="fa fa-angle-up"></i></a> 
                   </div>
                 </div>
               </div>
            </div>
+           
         </div>
 
        
