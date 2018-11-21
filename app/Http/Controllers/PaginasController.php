@@ -12,7 +12,12 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
-    
+    public function calificarCampaña(){
+        
+      return view('donador.calificarCampaña');
+
+    }
+
     public function visualizarDetalleDonacion(){
 
         $config['center'] = '-0.269088, -78.566107';
@@ -23,8 +28,8 @@ class PaginasController extends Controller
         $gmap->initialize($config);
      
         $marker['position'] = '-0.276823, -78.583350';
-        $marker['infowindow_content'] = 'TE AMO MI BONITA EL JUEVES TE ESPERO AQUI';
-        
+        $marker['infowindow_content'] = 'Buenaventura calle L14 lote 15';
+
 
 
         $gmap->add_marker($marker);

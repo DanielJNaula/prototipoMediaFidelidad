@@ -21,8 +21,19 @@
            <div class="container">
               <div class="col-md-12">
                  <div class="panel-body">
-                  <div class="row" style="text-align: center; color: #348fe2;">
-                    <strong><h3>Ayuda a los albergados del Albergue San Juan de Dios</h3> </strong><br>
+                  <div class="row" style=" color: #348fe2;">
+                    
+                      <div class="toolbar title_ip_breadcrumb fit-m-b-10">
+                        <ol class="breadcrumb">
+                          
+                          <li class="active"><a href="#">Detalle donación</a></li>
+                          
+                          <label class='text-success pull-right'>
+                            <a href="/visualizar-mis-donaciones" class="btn btn-link fit-m-t-1"><i class="fa fa fa-arrow-left"></i> Atras</a>
+                          </label>
+                        </ol>
+                      </div>
+                    <br>
                   </div>
                       <div class="row">
                         <!-- inicio col 4 -->

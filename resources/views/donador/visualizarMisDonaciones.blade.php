@@ -61,9 +61,9 @@
                                             <td>Donación</td>
                                             <td>Vestimenta para ancianos</td>
                                             <td>Retirado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -73,9 +73,9 @@
                                             <td>Voluntariado</td>
                                             <td>Voluntario</td>
                                             <td>Pendiente</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -85,9 +85,9 @@
                                             <td>Voluntariado</td>
                                             <td>Voluntario</td>
                                             <td>Aceptado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -97,9 +97,9 @@
                                             <td>Donación</td>
                                             <td>Alimentos para los albergados</td>
                                             <td>Por retirado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -109,9 +109,9 @@
                                             <td>Donación</td>
                                             <td>Vestimenta para ancianos</td>
                                             <td>Retirado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -121,9 +121,9 @@
                                             <td>Voluntariado</td>
                                             <td>Voluntario</td>
                                             <td>Pendiente</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -133,9 +133,9 @@
                                             <td>Voluntariado</td>
                                             <td>Voluntario</td>
                                             <td>Aceptado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -145,9 +145,9 @@
                                             <td>Donación</td>
                                             <td>Alimentos para los albergados</td>
                                             <td>Por retirado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
 
@@ -158,9 +158,9 @@
                                             <td>Donación</td>
                                             <td>Vestimenta para ancianos</td>
                                             <td>Retirado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -171,8 +171,8 @@
                                             <td>Voluntario</td>
                                             <td>Pendiente</td>
                                             <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -182,9 +182,9 @@
                                             <td>Voluntariado</td>
                                             <td>Voluntario</td>
                                             <td>Aceptado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -194,9 +194,9 @@
                                             <td>Donación</td>
                                             <td>Alimentos para los albergados</td>
                                             <td>Por retirado</td>
-                                            <td>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                            <td class="text-center">
+                                              <a href="/visualizar-mis-donaciones/calificar-campaña"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/visualizar-mis-donaciones/detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
                                             </td>
                                         </tr>
                                        

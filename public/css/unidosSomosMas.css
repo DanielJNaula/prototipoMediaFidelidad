@@ -311,6 +311,10 @@ footer{
 .detalle-donacion{
   line-height: 27px;
 }
+.detalle-campaña{
+  line-height: 27px;
+  font-size: 16px;
+}
 /* -----------------------------------------------
 ------------ imagenes en tabla campaña -------------
 ----------------------------------------------- */
