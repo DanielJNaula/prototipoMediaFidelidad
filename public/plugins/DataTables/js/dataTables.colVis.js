@@ -1,7 +1,7 @@
 /*! ColVis 1.1.1
  * Â©2010-2014 SpryMedia Ltd - datatables.net/license
  */
-
+ 
 /**
  * @summary     ColVis
  * @description Controls for column visibility in DataTables

@@ -38,6 +38,8 @@ Route::get('/visualizar-mis-campañas','PaginasController@visualizarMisCampañas
 Route::get('/visualizar-mis-donaciones/detalle-donacion','PaginasController@visualizarDetalleDonacion');
 
 Route::get('/visualizar-mis-donaciones/calificar-campaña','PaginasController@calificarCampaña');
+
+Route::get('/mis-campañas/visualizar-donadores','PaginasController@vizualizarDonadoresCampaña');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

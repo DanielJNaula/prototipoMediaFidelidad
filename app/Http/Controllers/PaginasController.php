@@ -12,6 +12,13 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
+    
+    public function vizualizarDonadoresCampaña(){
+        
+      return view('beneficiario.visualizarDonadoresCampaña');
+
+    }
+
     public function calificarCampaña(){
         
       return view('donador.calificarCampaña');

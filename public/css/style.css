@@ -6129,7 +6129,7 @@ body.flat-black {
 .nav.nav-tabs.nav-tabs-inverse > li.active > a,
 .nav.nav-tabs.nav-tabs-inverse > li.active > a:hover,
 .nav.nav-tabs.nav-tabs-inverse > li.active > a:focus {
-    background: #fff;
+    background: #F8F9F9;
     color: #242a30;
 }
 .tab-overflow.overflow-right .next-button,
