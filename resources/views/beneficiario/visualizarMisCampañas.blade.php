@@ -84,7 +84,7 @@
                                             <td>Animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
@@ -116,7 +116,7 @@
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, magnam distinctio provident eveniet cum labore alias numquam facere aut.</td>
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
@@ -148,7 +148,7 @@
                                             <td>Dolor sit amet, consectetur adipisicing elit. Enim aut, sint deleniti, eligendi animi sit esse!</td>
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
@@ -180,7 +180,7 @@
                                             <td>Psum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus veniam magnam beatae quae, nemo adipisci corporis doloremque nihil.</td>
                                             <td class="text-center">
                                               <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>

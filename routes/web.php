@@ -42,6 +42,8 @@ Route::get('/visualizar-mis-donaciones/calificar-campaña','PaginasController@ca
 Route::get('/mis-campañas/visualizar-donadores','PaginasController@vizualizarDonadoresCampaña');
 
 Route::get('/mis-campañas/visualizar-campaña','PaginasController@vizualizarCampañaBeneficiario');
+
+Route::get('/mis-campañas/visualizar-campaña-voluntariado','PaginasController@vizualizarCampañaVoluntariadoBeneficiario');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
