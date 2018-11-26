@@ -292,9 +292,9 @@
                   <!-- begin wizard step-4 -->
                   <div>
                       <div class="jumbotron m-b-0 text-center">
-                                            <h1>El registro de su campaña esta casi listo</h1>
+                                            <h1>El actualizacion de su campaña esta casi listo</h1>
                                             <p>Pronto se te enviara un correo de parte del administrador UNIDOS SOMOS MÁS para notificarte novedades en tu campaña o si tu campaña ya esta públicada gracias por formar parte de UNIDOS SOMOS MÁS. </p>
-                                            <p><a class="btn btn-primary btn-lg" href="/visualizar-mis-campañas" role="button">Registrar campaña de voluntariado</a>
+                                            <p><a class="btn btn-primary btn-lg" href="/visualizar-mis-campañas" role="button">Actualizar campaña de voluntariado</a>
                                             
                                             </p>
                                         </div>

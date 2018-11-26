@@ -24,8 +24,8 @@
                       <h3><span style="color: #348fe2"> <strong> Mis Campañas</strong></span></h3>
                     <br>
                     <div class="panel-body pull-right">
-                          <a type="button" href="/mis-campañas/crear-campaña-donacion-bienes"  class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</a>
-                          <a type="button" href="/mis-campañas/crear-campaña-voluntariado" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</a>        
+                        <a type="button" href="/mis-campañas/crear-campaña-donacion-bienes"  class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</a>
+                        <a type="button" href="/mis-campañas/crear-campaña-voluntariado" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</a>        
                     </div>
                     </div>
                   </div>
@@ -67,7 +67,7 @@
                                             <td>Donación</td>
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -83,7 +83,7 @@
                                             <td>Voluntariado</td>
                                             <td>Animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -99,7 +99,7 @@
                                             <td>Donación</td>
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo pariatur tempore, similique! Commodi ratione aliquam accusamus at consectetur!</td>
                                             <td class="text-center celda-acciones">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -115,7 +115,7 @@
                                             <td>Voluntariado</td>
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, magnam distinctio provident eveniet cum labore alias numquam facere aut.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -131,7 +131,7 @@
                                             <td>Donación</td>
                                             <td>Consectetur adipisicing elit. Nisi veniam numquam velit excepturi iusto.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -147,7 +147,7 @@
                                             <td>Voluntariado</td>
                                             <td>Dolor sit amet, consectetur adipisicing elit. Enim aut, sint deleniti, eligendi animi sit esse!</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -163,7 +163,7 @@
                                             <td>Donación</td>
                                             <td>Sit amet, consectetur adipisicing elit. Modi necessitatibus sunt dolorem qui quis ratione debitis est expedita reiciendis similique.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
@@ -179,7 +179,7 @@
                                             <td>Voluntariado</td>
                                             <td>Psum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus veniam magnam beatae quae, nemo adipisci corporis doloremque nihil.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
                                               <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
