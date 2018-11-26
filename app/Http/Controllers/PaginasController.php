@@ -12,6 +12,11 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
+    public function crearCampañaVoluntariado(){
+        
+      return view('beneficiario.crearCampañaVoluntariado');
+
+    }
     
     public function crearCampañaBienes(){
         

@@ -46,6 +46,8 @@ Route::get('/mis-campañas/visualizar-campaña','PaginasController@vizualizarCam
 Route::get('/mis-campañas/visualizar-campaña-voluntariado','PaginasController@vizualizarCampañaVoluntariadoBeneficiario');
 
 Route::get('/mis-campañas/crear-campaña-donacion-bienes','PaginasController@crearCampañaBienes');
+
+Route::get('/mis-campañas/crear-campaña-voluntariado','PaginasController@crearCampañaVoluntariado');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

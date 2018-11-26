@@ -10,7 +10,7 @@
   
   <link href="{{ asset('plugins/parsley/src/parsley.css') }}" rel="stylesheet" />
   <link href="{{ asset('plugins/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet" />
-  
+ 
   
   
   
@@ -150,19 +150,23 @@
                                                 </div>                
                                                 <!-- final tipo campaña -->
 
-                                                <h3><strong>Donaciones que acepta tu campaña</strong></h3>
-                                                
-                                                <!-- inicio donaciones -->
-                                                <div class="form-group">
-                                                    <label>Describa las donaciones que acepta la campaña *:</label>
-                                                    <textarea class="ckeditor" id="editor1" name="comentario" rows="6" data-parsley-group="wizard-step-1" required></textarea>
-                                                  </div>
-                                                  
-                                                <!-- fin donaciones -->
-
                                                 <h3><strong>Descripción de campaña</strong></h3>
                                                 <h4><strong>Video o imagen de portada de la campaña</strong></h4>
                                                 
+                                                <!-- inicio direccion voluntariado-->
+                                                  <div class="form-group ">
+                                                    <label>Ubicación donde se realizará el voluntariado*:</label>
+                                                    <input type="ubicacionVoluntariado" name="ubicacionVoluntariado" placeholder="Escriba la direccion donde se realizará el voluntariado" class="form-control" data-parsley-group="wizard-step-1" required />
+                                                  </div>
+                                                <!-- fin direccion voluntariado -->
+
+                                                <!-- inicio direccion voluntariado-->
+                                                  <div class="form-group ">
+                                                    <label>Cuantos voluntarios necesita su campaña*:</label>
+                                                    <input type="number" name="ubicacionVoluntariado" placeholder="Escriba el número de voluntarios que necesita su campaña" class="form-control" data-parsley-group="wizard-step-1" required />
+                                                  </div>
+                                                <!-- fin direccion voluntariado -->
+
                                                 <!-- inicio url campaña -->
                                                   <div class="form-group">
                                                     <label>URL del video de la campaña *:</label>
@@ -190,12 +194,20 @@
                                               </div>
                                                 <!-- fin imagen -->
 
-                                                <!-- inicio url campaña -->
+                                                <!-- inicio descripcion campaña -->
                                                   <div class="form-group">
                                                     <label>Descripción de campaña *:</label>
                                                     <textarea class="ckeditor"  name="descripcionCampaña"  data-parsley-group="wizard-step-1" required></textarea>
                                                   </div>
+                                                <!-- fin descripcion campaña -->
+
+                                                <!-- inicio url campaña -->
+                                                  <div class="form-group">
+                                                    <label>Describa las funciones que realizaran los voluntarios *:</label>
+                                                    <textarea class="ckeditor"  name="descripcionCampaña"  data-parsley-group="wizard-step-1" required></textarea>
+                                                  </div>
                                                 <!-- fin url campaña -->
+
                                               </div>
                                             </div>
                                             <!-- end row -->
