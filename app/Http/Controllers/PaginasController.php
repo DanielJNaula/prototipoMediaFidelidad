@@ -12,12 +12,36 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
+    public function editarEstadoVoluntariado(){
+        
+      return view('beneficiario.editarEstadoVoluntariado');
+
+    }
+
+    public function calificarVoluntario(){
+        
+      return view('beneficiario.calificarVoluntario');
+
+    }
+
+    public function visualizarDetalleVoluntariadoBeneficiario(){
+        
+      return view('beneficiario.visualizarDetalleVoluntariado');
+
+    }
+
+    public function vizualizarVoluntariosCampaña(){
+        
+      return view('beneficiario.visualizarVoluntariosCampaña');
+
+    }
+
     public function editarEstadoDonacion(){
         
       return view('beneficiario.editarEstadoDonacion');
 
     }
-    
+
     public function visualizarDetalleDonacionBeneficiario(){
         $config['center'] = '-0.269088, -78.566107';
         $config['zoom'] = 'auto';

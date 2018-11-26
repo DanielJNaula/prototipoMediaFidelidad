@@ -41,6 +41,8 @@ Route::get('/visualizar-mis-donaciones/calificar-campaña','PaginasController@ca
 
 Route::get('/mis-campañas/visualizar-donaciones','PaginasController@vizualizarDonadoresCampaña');
 
+Route::get('/mis-campañas/visualizar-voluntarios','PaginasController@vizualizarVoluntariosCampaña');
+
 Route::get('/mis-campañas/visualizar-campaña','PaginasController@vizualizarCampañaBeneficiario');
 
 Route::get('/mis-campañas/visualizar-campaña-voluntariado','PaginasController@vizualizarCampañaVoluntariadoBeneficiario');
@@ -55,9 +57,15 @@ Route::get('/mis-campañas/editar-campaña-voluntariado','PaginasController@edit
 
 Route::get('/mis-campañas/visualizar-donaciones/calificar-donador','PaginasController@calificarDonador');
 
+Route::get('/mis-campañas/visualizar-voluntarios/calificar-voluntario','PaginasController@calificarVoluntario');
+
 Route::get('/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion','PaginasController@visualizarDetalleDonacionBeneficiario');
 
+Route::get('/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado','PaginasController@visualizarDetalleVoluntariadoBeneficiario');
+
 Route::get('/mis-campañas/visualizar-donaciones/editar-estado-donacion','PaginasController@editarEstadoDonacion');
+
+Route::get('/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado','PaginasController@editarEstadoVoluntariado');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

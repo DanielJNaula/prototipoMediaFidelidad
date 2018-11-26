@@ -21,8 +21,8 @@
                   <div class="row" >
 
                     <div class="col-md-12 text-center">
-                      <h3><span style="color: #348fe2"> <strong>Ayuda a los albergados de San Juan Dios</strong></span></h3>
-                      <h4><span style="color: #348fe2"> <strong>Donación de bienes</strong></span></h4>
+                      <h3><span style="color: #348fe2"> <strong>Cuidado de ancianos del albergue San Juan Dios</strong></span></h3>
+                      <h4><span style="color: #348fe2"> <strong>Voluntariado</strong></span></h4>
                     <br>
                     
                   </div>
@@ -40,14 +40,14 @@
                           <li class="active">
                             <a href="#donacionesRetiradas" data-toggle="tab">
                               <i class="fa fa-sticky-note-o m-r-5"></i>
-                              <span >Donaciones retiradas</span>
+                              <span >Voluntarios Aceptados</span>
                               (4)
                             </a>
                           </li>
                           <li class="">
                             <a href="#donacionesPorRetirar" data-toggle="tab">
                               <i class="fa fa-sticky-note m-r-5"></i>
-                              <span >Donaciones por retirar</span>
+                              <span >Voluntarios Pendientes</span>
                               (13)
                             </a>
                           </li>
@@ -61,7 +61,7 @@
                             <div class="tab-pane fade active in" id="donacionesRetiradas">
                               <div style="text-align: right;">
                                 
-                                <a href="#" class="btn btn-info  m-r-5 m-b-5"><i class="fa fa fa-file-pdf-o"></i> Reporte donaciones retiradas</a>
+                                <a href="#" class="btn btn-info  m-r-5 m-b-5"><i class="fa fa fa-file-pdf-o"></i> Reporte voluntarios aceptados</a>
                               </div><br>
                                 
                               
@@ -71,7 +71,7 @@
                                     <tr>
                                             <th width="1%">Id</th>
                                             <th>Donador</th>
-                                            <th>Titulo donación</th>
+                                            <th>Correo electrónico</th>
                                             <th>Fecha de registro</th>
                                             <th>Acciones</th>
 
@@ -81,48 +81,48 @@
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">1</td>
                                             <td>Maria Belén Guamán</td>
-                                            <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>mariabelen@hotmail.es</td>
                                             <td>01/12/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">2</td>
                                             <td>Maria Ines Guiñan</td>
-                                            <td>Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>inesGuinan@hotmail.es</td>
                                             <td>25/11/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">3</td>
                                             <td>David Fabricio Corona</td>
-                                            <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>davidcorona@hotmail.es</td>
                                             <td>02/11/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">4</td>
                                             <td>Juan Dominguez</td>
-                                            <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>juanDomingues@hotmail.es</td>
                                             <td>24/11/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -138,14 +138,14 @@
                                   <div class="table-responsive">
                                     <div style="text-align: right;">
                                 
-                                <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion" class="btn btn-success  m-r-5 m-b-5"><i class="fa fa fa-file-pdf-o"></i> Reporte donaciones por retirar</a>
+                                <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado" class="btn btn-success  m-r-5 m-b-5"><i class="fa fa fa-file-pdf-o"></i> Reporte voluntarios pendientes</a>
                               </div><br>
                                   <table id="data-table1" class="table table-striped table-bordered">
                                   <thead>
                                     <tr>
                                             <th width="1%">Id</th>
                                             <th>Donador</th>
-                                            <th>Titulo donación</th>
+                                            <th>Correo electrónico</th>
                                             <th>Fecha de registro</th>
                                             <th>Acciones</th>
 
@@ -155,156 +155,156 @@
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">24</td>
                                             <td>Marta Carolina Paez</td>
-                                            <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>martapaez@hotmail.es</td>
                                             <td>2018/11/27</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">20</td>
                                             <td>Lizeth Diana Manobanda</td>
-                                            <td>Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>lixethdiana@hotmail.es</td>
                                             <td>2018/11/29</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">50</td>
                                             <td>Armando Jesús Tapia</td>
-                                            <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>armandoTapia@hotmail.es</td>
                                             <td>2018/11/16</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">60</td>
                                             <td>Adrian Edison Toaquiza</td>
-                                            <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>adriantoaquiza@hotmail.es.</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">24</td>
                                             <td>Marta Carolina Paez</td>
-                                            <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>Martapaez@hotmail.es</td>
                                             <td>2018/11/27</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">20</td>
                                             <td>Lizeth Diana Manobanda</td>
-                                            <td>Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>lizethdiana@hotmail.es.</td>
                                             <td>2018/11/29</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">50</td>
                                             <td>Armando Jesús Tapia</td>
-                                            <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>armandoTapia@hotmail.es</td>
                                             <td>2018/11/16</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">60</td>
                                             <td>Adrian Edison Toaquiza</td>
-                                            <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>adriantoaquiza@hotmail.es</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">60</td>
                                             <td>Adrian Edison Toaquiza</td>
-                                            <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>adrianToaquiza@hotmail.es</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">24</td>
                                             <td>Marta Carolina Paez</td>
-                                            <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>martapaez@hotmail.es</td>
                                             <td>2018/11/27</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">20</td>
                                             <td>Lizeth Diana Manobanda</td>
-                                            <td >Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td >lizethdiana@hotmail.es</td>
                                             <td>2018/11/29</td>
                                             <td class="text-center celda-acciones">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">50</td>
                                             <td>Armando Jesús Tapia</td>
-                                            <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>armandoTapia@hotmail.es</td>
                                             <td>2018/11/16</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">60</td>
                                             <td>Adrian Edison Toaquiza</td>
-                                            <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td>adriantoaquiza@hotmail.es</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-voluntarios/calificar-voluntario"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
