@@ -250,25 +250,25 @@
                                               <!-- inicio url fb -->
                                                   <div class="form-group">
                                                     <label>Facebook :</label>
-                                                    <input type="tituloCampaña" name="tituloCampaña" placeholder="Ingrese el link de facebook de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
+                                                    <input type="linkFacebook" name="linkFacebook" placeholder="Ingrese el link de facebook de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
                                                   </div>
                                                 <!-- fin url fb -->
                                                <!-- inicio url tw -->
                                                   <div class="form-group">
                                                     <label>Twitter :</label>
-                                                    <input type="tituloCampaña" name="tituloCampaña" placeholder="Ingrese el link de twitter de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
+                                                    <input type="linkTwitter" name="linkTwitter" placeholder="Ingrese el link de twitter de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
                                                   </div>
                                                 <!-- fin url tw -->
                                                 <!-- inicio url youtube -->
                                                   <div class="form-group">
                                                     <label>Youtube :</label>
-                                                    <input type="tituloCampaña" name="tituloCampaña" placeholder="Ingrese el link su canal de youtube de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
+                                                    <input type="linkYoutube" name="linkYoutube" placeholder="Ingrese el link su canal de youtube de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
                                                   </div>
                                                 <!-- fin url youtube -->
                                                 <!-- inicio url pagina web -->
                                                   <div class="form-group">
-                                                    <label>Youtube :</label>
-                                                    <input type="tituloCampaña" name="tituloCampaña" placeholder="Ingrese el link de la pagina web de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
+                                                    <label>Pagina web :</label>
+                                                    <input type="linkPaginaWeb" name="linkPaginaWeb" placeholder="Ingrese el link de la pagina web de su campaña" class="form-control" data-parsley-group="wizard-step-3" data-parsley-type="url"  />
                                                   </div>
                                                 <!-- fin url pagina web -->
                                                 </div>
