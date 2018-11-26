@@ -39,7 +39,7 @@ Route::get('/visualizar-mis-donaciones/detalle-donacion','PaginasController@visu
 
 Route::get('/visualizar-mis-donaciones/calificar-campaña','PaginasController@calificarCampaña');
 
-Route::get('/mis-campañas/visualizar-donadores','PaginasController@vizualizarDonadoresCampaña');
+Route::get('/mis-campañas/visualizar-donaciones','PaginasController@vizualizarDonadoresCampaña');
 
 Route::get('/mis-campañas/visualizar-campaña','PaginasController@vizualizarCampañaBeneficiario');
 
@@ -52,6 +52,12 @@ Route::get('/mis-campañas/crear-campaña-voluntariado','PaginasController@crear
 Route::get('/mis-campañas/editar-campaña-donacion-bienes','PaginasController@editarCampañabienes');
 
 Route::get('/mis-campañas/editar-campaña-voluntariado','PaginasController@editarCampañaVoluntariado');
+
+Route::get('/mis-campañas/visualizar-donaciones/calificar-donador','PaginasController@calificarDonador');
+
+Route::get('/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion','PaginasController@visualizarDetalleDonacionBeneficiario');
+
+Route::get('/mis-campañas/visualizar-donaciones/editar-estado-donacion','PaginasController@editarEstadoDonacion');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

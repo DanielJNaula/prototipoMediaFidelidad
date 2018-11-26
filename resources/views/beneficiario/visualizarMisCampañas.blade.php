@@ -70,7 +70,7 @@
                                               <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -86,7 +86,7 @@
                                               <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -102,7 +102,7 @@
                                               <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -118,7 +118,7 @@
                                               <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -134,7 +134,7 @@
                                               <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -150,7 +150,7 @@
                                               <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -166,7 +166,7 @@
                                               <a href="/mis-campañas/editar-campaña-donacion-bienes"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -182,7 +182,7 @@
                                               <a href="/mis-campañas/editar-campaña-voluntariado"><i class="fa fa-2x fa-edit"></i></a>
                                               <a href="/mis-campañas/visualizar-campaña-voluntariado"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#modal-alert"  data-toggle="modal"><i class="fa fa-2x fa-times-circle"></i></a>
-                                              <a href="/mis-campañas/visualizar-donadores"><i class="fa fa-2x fa-heart"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones"><i class="fa fa-2x fa-heart"></i></a>
                                             </td>
                                         </tr>
                                        

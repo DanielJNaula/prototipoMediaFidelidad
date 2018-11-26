@@ -85,8 +85,8 @@
                                             <td>01/12/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donadores/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -97,8 +97,8 @@
                                             <td>25/11/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -109,8 +109,8 @@
                                             <td>02/11/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -121,8 +121,8 @@
                                             <td>24/11/2018</td>
                                             <td class="text-center">
                                               
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -138,7 +138,7 @@
                                   <div class="table-responsive">
                                     <div style="text-align: right;">
                                 
-                                <a href="#" class="btn btn-success  m-r-5 m-b-5"><i class="fa fa fa-file-pdf-o"></i> Reporte donaciones por retirar</a>
+                                <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion" class="btn btn-success  m-r-5 m-b-5"><i class="fa fa fa-file-pdf-o"></i> Reporte donaciones por retirar</a>
                               </div><br>
                                   <table id="data-table1" class="table table-striped table-bordered">
                                   <thead>
@@ -158,9 +158,9 @@
                                             <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/27</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -170,9 +170,9 @@
                                             <td>Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/29</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -182,9 +182,9 @@
                                             <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/16</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -194,9 +194,9 @@
                                             <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -206,9 +206,9 @@
                                             <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/27</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -218,9 +218,9 @@
                                             <td>Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/29</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -230,9 +230,9 @@
                                             <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/16</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -242,9 +242,9 @@
                                             <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -254,9 +254,9 @@
                                             <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -266,21 +266,21 @@
                                             <td>Amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/27</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
                                     <tr>
                                             <td width="1%" class="f-s-600 text-inverse">20</td>
                                             <td>Lizeth Diana Manobanda</td>
-                                            <td>Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
+                                            <td >Consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/29</td>
-                                            <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                            <td class="text-center celda-acciones">
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -290,9 +290,9 @@
                                             <td>Hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/16</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>
@@ -302,9 +302,9 @@
                                             <td>Dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td>2018/11/14</td>
                                             <td class="text-center">
-                                              
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-star"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/editar-estado-donacion"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/visualizar-detalle-donacion"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/mis-campañas/visualizar-donaciones/calificar-donador"><i class="fa fa-2x fa-star"></i></a>
                                             </td>
                                             
                                     </tr>

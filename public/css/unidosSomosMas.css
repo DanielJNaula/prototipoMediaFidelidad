@@ -333,6 +333,10 @@ footer{
     height:55px;
     
 }
+.celda-descripcion{
+width: 300px; /*Aquí va el ancho de la Celda*/
+
+}
 .celda-acciones{
 width: 150px; /*Aquí va el ancho de la Celda*/
 

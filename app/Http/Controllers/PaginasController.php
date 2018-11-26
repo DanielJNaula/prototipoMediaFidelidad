@@ -12,12 +12,41 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
+    public function editarEstadoDonacion(){
+        
+      return view('beneficiario.editarEstadoDonacion');
+
+    }
+    
+    public function visualizarDetalleDonacionBeneficiario(){
+        $config['center'] = '-0.269088, -78.566107';
+        $config['zoom'] = 'auto';
+        $config['map_height'] = '400px';
+        $config['directions'] = TRUE;
+        $config['directionsStart'] = '-0.269088, -78.566107';
+        $config['directionsEnd'] = '-0.273648, -78.564358';
+        $config['directionsDivID'] = 'directionsDiv';
+
+        $gmap = new GMaps();
+        $gmap->initialize($config);
+        $map = $gmap->create_map();
+        
+      return view('beneficiario.visualizarDetalleDonacion')->with(['map'=>$map]);
+
+    }
+
+    public function calificarDonador(){
+        
+      return view('beneficiario.calificarDonador');
+
+    }
+
     public function editarCampañaVoluntariado(){
         
       return view('beneficiario.editarCampañaVoluntariado');
 
     }
-    
+
     public function editarCampañabienes(){
         
       return view('beneficiario.editarCampañaDonacionBienes');
