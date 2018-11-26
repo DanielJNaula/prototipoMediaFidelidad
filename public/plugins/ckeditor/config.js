@@ -9,14 +9,14 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// config.uiColor = '#AADC6E';
 	config.forcePasteAsPlainText = true;
-		
+	config.filebrowserUploadUrl= "{{asset ('plugins/ckeditor/upload.php')}}",	
 
 	config.toolbarGroups = [
 		{ name: 'document', groups: [ 'mode', 'document', 'doctools' ] },
 		{ name: 'clipboard', groups: [ 'clipboard', 'undo' ] },
 		{ name: 'editing', groups: [ 'find', 'selection', 'spellchecker', 'editing' ] },
 		{ name: 'forms', groups: [ 'forms' ] },
-		
+		'/',
 		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
 		{ name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi', 'paragraph' ] },
 		{ name: 'links', groups: [ 'links' ] },
@@ -29,7 +29,7 @@ CKEDITOR.editorConfig = function( config ) {
 		{ name: 'about', groups: [ 'about' ] }
 	];
 
-	config.removeButtons = 'Source,Save,Templates,PasteFromWord,PasteText,Paste,Copy,Cut,Find,Replace,Form,Checkbox,Radio,TextField,Textarea,Select,Button,HiddenField,Strike,Subscript,Superscript,CopyFormatting,RemoveFormat,CreateDiv,Flash,HorizontalRule,PageBreak,Iframe,Styles,Format,Font,FontSize,Smiley,SpecialChar,Link,Unlink,Anchor,BGColor,ImageButton';
+	config.removeButtons = 'Source,Save,NewPage,Preview,Print,Templates,Cut,Copy,Paste,PasteText,PasteFromWord,Undo,Redo,Find,Replace,SelectAll,Scayt,Form,Checkbox,Radio,TextField,Textarea,Select,Button,ImageButton,HiddenField,Italic,Underline,Strike,Subscript,Superscript,CopyFormatting,RemoveFormat,Blockquote,CreateDiv,Link,Unlink,Anchor,Flash,Table,HorizontalRule,Smiley,SpecialChar,PageBreak,Iframe,BGColor,About,Maximize,Styles,Format,Font';
 
 	
 };

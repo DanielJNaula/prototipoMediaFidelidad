@@ -49,7 +49,7 @@
 					<h4 class="panel-title">Summernote</h4>
 				</div>
 				<div class="panel-body p-0">
-					<form action="" method="POST" name="summernote_form">
+					<form action="" method="POST" >
 						<textarea class="summernote" name="content"></textarea>
 					</form>
 				</div>

@@ -227,7 +227,7 @@
 		<!-- end wizard -->
 	</form>
 	<!-- end wizard-form -->
-@endsection
+@endsection 
 
 @push('scripts')
 	<script src="/assets/plugins/smartwizard/dist/js/jquery.smartWizard.js"></script>

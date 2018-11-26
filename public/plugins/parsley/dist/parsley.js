@@ -1006,7 +1006,10 @@
             assert = new Validator.Assert().Email();
             break;
           case 'number':
-            assert = new Validator.Assert().Regexp('^-?(?:\\d+|\\d{1,3}(?:,\\d{3})+)?(?:\\.\\d+)?$');
+            assert = new Validator.Assert().Regexp('^([0-9]){10,10}$');
+            break;
+          case 'telefono':
+            assert = new Validator.Assert().Regexp('^([0-9]){10,10}$');
             break;
           case 'integer':
             assert = new Validator.Assert().Regexp('^-?\\d+$');
@@ -1873,6 +1876,7 @@ window.ParsleyConfig.i18n.en = $.extend(window.ParsleyConfig.i18n.en || {}, {
   type: {
     email:        "This value should be a valid email.",
     url:          "This value should be a valid url.",
+    telefono:     "Ingrese telefono valido.",
     number:       "This value should be a valid number.",
     integer:      "This value should be a valid integer.",
     digits:       "This value should be digits.",

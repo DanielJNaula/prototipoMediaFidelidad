@@ -1,82 +1,67 @@
 <?php
-// Upload script for CKEditor.
-// Use at your own risk, no warranty provided. Be careful about who is able to access this file
-// The upload folder shouldn't be able to upload any kind of script, just in case.
-// If you're not sure, hire a professional that takes care of adjusting the server configuration as well as this script for you.
-// (I am not such professional)
+$upload_dir = array(
+    'img'=> '/postimages/',
+);
 
-// Step 1: change the true for whatever condition you use in your environment to verify that the user
-// is logged in and is allowed to use the script
-if ( true ) {
-	echo("You're not allowed to upload files");
-	die(0);
+$imgset = array(
+    // 'maxsize' => 2000,    
+    // 'maxwidth' => 900,    
+    // 'maxheight' => 800,    
+    'minwidth' => 10,      
+    'minheight' => 10,
+    'type' => array('bmp', 'gif', 'jpg', 'jpeg', 'png'),
+);
+
+// If 0, will OVERWRITE the existing file
+define('RENAME_F', 1);
+
+$re = '';
+if(isset($_FILES['upload']) && strlen($_FILES['upload']['name']) >1) {
+    define('F_NAME', preg_replace('/\.(.+?)$/i', '', basename($_FILES['upload']['name'])));  //get filename without extension
+
+    // get protocol and host name to send the absolute image path to CKEditor    
+    $site = 'http' . (isset($_SERVER['HTTPS']) ? 's' : '') . '://' . $_SERVER['HTTP_HOST'].'/';
+    $sepext = explode('.', strtolower($_FILES['upload']['name']));
+    $type = end($sepext);    // gets extension
+    $upload_dir = in_array($type, $imgset['type']) ? $upload_dir['img'] : $upload_dir['audio'];
+    $upload_dir = trim($upload_dir, '/') .'/';
+
+    //checkings for image or audio
+    if(in_array($type, $imgset['type'])){
+        // list($width, $height) = getimagesize($_FILES['upload']['tmp_name']);  // image width and height
+        if(isset($width) && isset($height)) {
+            if($width > $imgset['maxwidth'] || $height > $imgset['maxheight']) $re .= '\\n Width x Height = '. $width .' x '. $height .' \\n The maximum Width x Height must be: '. $imgset['maxwidth']. ' x '. $imgset['maxheight'];
+            if($width < $imgset['minwidth'] || $height < $imgset['minheight']) $re .= '\\n Width x Height = '. $width .' x '. $height .'\\n The minimum Width x Height must be: '. $imgset['minwidth']. ' x '. $imgset['minheight'];
+            if($_FILES['upload']['size'] > $imgset['maxsize']*1000) $re .= '\\n Maximum file size must be: '. $imgset['maxsize']. ' KB.';
+        }
+    }
+  
+    else $re .= 'The file: '. $_FILES['upload']['name']. ' has not the allowed extension type.';
+
+    //set filename; if file exists, and RENAME_F is 1, set "img_name_I"
+    // $p = dir-path, $fn=filename to check, $ex=extension $i=index to rename
+    function setFName($p, $fn, $ex, $i){
+        if(RENAME_F ==1 && file_exists($p .$fn .$ex)) return setFName($p, F_NAME .'_'. ($i +1), $ex, ($i +1));
+        else return $fn .$ex;
+    }
+
+    $f_name = setFName($_SERVER['DOCUMENT_ROOT'] .'/'. $upload_dir, F_NAME, ".$type", 0);
+    $uploadpath = $_SERVER['DOCUMENT_ROOT'] .'/'. $upload_dir . $f_name;  // full file path
+
+    // If no errors, upload the image, else, output the errors
+    if($re == '') {
+        // print_r($_FILES);exit;
+        if(move_uploaded_file($_FILES['upload']['tmp_name'], $uploadpath)) {
+            $CKEditorFuncNum = $_GET['CKEditorFuncNum'];
+            $url = $site. $upload_dir . $f_name;
+            $msg = F_NAME .'.'. $type .' successfully uploaded: \\n- Size: '. number_format($_FILES['upload']['size']/1024, 2, '.', '') .' KB';
+            $re = in_array($type, $imgset['type']) ? "window.parent.CKEDITOR.tools.callFunction($CKEditorFuncNum, '$url', '$msg')"  //for img
+           : 'var cke_ob = window.parent.CKEDITOR; for(var ckid in cke_ob.instances) { if(cke_ob.instances[ckid].focusManager.hasFocus) break;} cke_ob.instances[ckid].insertHtml(\'<audio src="'. $url .'" controls></audio>\', \'unfiltered_html\'); alert("'. $msg .'"); var dialog = cke_ob.dialog.getCurrent();  dialog.hide();';
+        }
+        else $re = 'alert("Unable to upload the file")';
+    }
+    else $re = 'alert("'. $re .'")';
 }
 
-// Step 2: Put here the full absolute path of the folder where you want to save the files:
-// You must set the proper permissions on that folder (I think that it's 644, but don't trust me on this one)
-// ALWAYS put the final slash (/)
-$basePath = "c:/xampp/htdocs/InteligenciaProductiva/public/imagenes/cspImagenes/";
-
-// Step 3: Put here the Url that should be used for the upload folder (it the URL to access the folder that you have set in $basePath
-// you can use a relative url "/images/", or a path including the host "http://example.com/images/"
-// ALWAYS put the final slash (/)
-$baseUrl = "http://localhost:8000/institucion/consejo-sectorial-produccion-createReportesHecho/imagenesCspReportes/";
-
-// Done. Now test it!
-
-
-
-// No need to modify anything below this line
-//----------------------------------------------------
-
-// ------------------------
-// Input parameters: optional means that you can ignore it, and required means that you
-// must use it to provide the data back to CKEditor.
-// ------------------------
-
-// Optional: instance name (might be used to adjust the server folders for example)
-$CKEditor = $_GET['CKEditor'] ;
-
-// Required: Function number as indicated by CKEditor.
-$funcNum = $_GET['CKEditorFuncNum'] ;
-
-// Optional: To provide localized messages
-$langCode = $_GET['langCode'] ;
-
-// ------------------------
-// Data processing
-// ------------------------
-
-// The returned url of the uploaded file
-$url = '' ;
-
-// Optional message to show to the user (file renamed, invalid file, not authenticated...)
-$message = '';
-
-// in CKEditor the file is sent as 'upload'
-if (isset($_FILES['upload'])) {
-    // Be careful about all the data that it's sent!!!
-    // Check that the user is authenticated, that the file isn't too big,
-    // that it matches the kind of allowed resources...
-    $name = $_FILES['upload']['name'];
-
-	// It doesn't care if the file already exists, it's simply overwritten.
-	move_uploaded_file($_FILES["upload"]["tmp_name"], $basePath . $name);
-
-    // Build the url that should be used for this file   
-    $url = $baseUrl . $name ;
-
-    // Usually you don't need any message when everything is OK.
-//    $message = 'new file uploaded';   
-}
-else
-{
-    $message = 'No file has been sent';
-}
-// ------------------------
-// Write output
-// ------------------------
-// We are in an iframe, so we must talk to the object in window.parent
-echo "<script type='text/javascript'> window.parent.CKEDITOR.tools.callFunction($funcNum, '$url', '$message')</script>";
-
-?>
+@header('Content-type: text/html; charset=utf-8');
+echo '<script>'. $re .';</script>';

@@ -24,8 +24,8 @@
                       <h3><span style="color: #348fe2"> <strong> Mis Campañas</strong></span></h3>
                     <br>
                     <div class="panel-body pull-right">
-                          <button type="button" class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</button>
-                          <button type="button" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</button>        
+                          <a type="button" href="/mis-campañas/crear-campaña-donacion-bienes"  class="btn btn-success m-r-5 m-b-5">Nueva campaña Donación</a>
+                          <a type="button" class="btn btn-primary m-r-5 m-b-5">Nueva campaña Voluntariado</a>        
                     </div>
                     </div>
                   </div>

@@ -1,8 +1,8 @@
-<?php
+<?php 
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Illuminate\Http\Request; 
 
 use DB;
 use Illuminate\Support\Collection as Collection;
@@ -13,6 +13,13 @@ use FarhanWazir\GoogleMaps\GMaps;
 class PaginasController extends Controller
 {
     
+    public function crearCampañaBienes(){
+        
+      return view('beneficiario.crearCampañaDonacionBienes');
+
+    }
+    
+
     public function vizualizarCampañaVoluntariadoBeneficiario(){
         
       return view('beneficiario.detalleCampañaVoluntariado');

@@ -44,10 +44,17 @@ Route::get('/mis-campañas/visualizar-donadores','PaginasController@vizualizarDo
 Route::get('/mis-campañas/visualizar-campaña','PaginasController@vizualizarCampañaBeneficiario');
 
 Route::get('/mis-campañas/visualizar-campaña-voluntariado','PaginasController@vizualizarCampañaVoluntariadoBeneficiario');
+
+Route::get('/mis-campañas/crear-campaña-donacion-bienes','PaginasController@crearCampañaBienes');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {
-	return view('cn-pages.ui-buttons');
+	return view('cn-pages.form-wysiwyg');
+	//return redirect('pages.dashboard-v2');
+});
+
+Route::get('/1', function () {
+	return view('cn-pages.form-summernote');
 	//return redirect('pages.dashboard-v2');
 });
 

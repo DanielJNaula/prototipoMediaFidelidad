@@ -4,12 +4,10 @@
 
 @section('start_css')
   @parent
-
-  <link href="{{ asset('css/starrr.css') }}" rel="stylesheet" />
   <link href="/assets/plugins/parsleyjs/src/parsley.css" rel="stylesheet" />
-  
-  
-
+  <link href="{{ asset('plugins/starability/css/starability-all.css') }}" rel="stylesheet" />
+  <link href="{{ asset('plugins/bootstraprating/css/star-rating.min.css') }}" rel="stylesheet" />
+  <link href="{{ asset('css/ratings.css') }}" rel="stylesheet" />
   
 @endsection
  
@@ -65,9 +63,18 @@
 
                                              <label class="control-label" for="tituloDonacion">Calificacion a la campaña * :</label><br><br>
                                              
-                                              
-                                              <span id="Estrellas"></span> <br><br>
-                                              
+                                             <div class="starability-growRotate">
+                                                <input type="radio" id="growing-rotating-rate5" name="rating" value="5" />
+                                                <label for="growing-rotating-rate5" title="Amazing" aria-label="Amazing, 5 stars">5 stars</label>
+                                                <input type="radio" id="growing-rotating-rate4" name="rating" value="4" />
+                                                <label for="growing-rotating-rate4" title="Very good" aria-label="Very good, 4 stars">4 stars</label>
+                                                <input type="radio" id="growing-rotating-rate3" name="rating" value="3" />
+                                                <label for="growing-rotating-rate3" title="Average" aria-label="Average, 3 stars">3 stars</label>
+                                                <input type="radio" id="growing-rotating-rate2" name="rating" value="2" />
+                                                <label for="growing-rotating-rate2" title="Not good" aria-label="Not good, 2 stars">2 stars</label>
+                                                <input type="radio" id="growing-rotating-rate1" name="rating" value="1" />
+                                                <label for="growing-rotating-rate1" title="Terrible" aria-label="Terrible, 1 star">1 star</label>
+                                            </div>
                                               
                           
                                               <label class="control-label" for="descripcionDonacion">Comentario de calificación *:</label>
@@ -129,7 +136,8 @@
   <script src="/assets/plugins/parsleyjs/dist/parsley.js"></script>
   <script src="/assets/plugins/highlight/highlight.min.js"></script>
   <script src="/assets/js/demo/render.highlight.js"></script>
-  <script src="{{ asset('js/starrr.js') }}"></script>
+  <script src="{{ asset('plugins/bootstraprating/js/star-rating.min.js') }}"></script>
+
   <!-- ================== END PAGE LEVEL JS ================== -->
   
 @endsection
@@ -143,17 +151,7 @@
     });
   </script>
 
-<script>
-  $('#Estrellas').starrr({
-       rating:3,
-       change:function(e,valor){
-           alert(valor);
-           
-       }
-       
-   }); 
-    
-</script>
+
 @endsection
 
 
