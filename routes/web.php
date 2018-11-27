@@ -66,6 +66,10 @@ Route::get('/mis-campañas/visualizar-voluntarios/visualizar-detalle-voluntariad
 Route::get('/mis-campañas/visualizar-donaciones/editar-estado-donacion','PaginasController@editarEstadoDonacion');
 
 Route::get('/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado','PaginasController@editarEstadoVoluntariado');
+
+
+/*OPCIONES USUARIOS*/
+Route::get('/mi-perfil','PaginasController@miPerfil');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

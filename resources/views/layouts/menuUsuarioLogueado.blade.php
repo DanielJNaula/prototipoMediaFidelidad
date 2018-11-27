@@ -66,11 +66,11 @@
 					
 					<li class="dropdown">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-														<i class="fa fa-user fa-fw"></i>Nombre Usuario<b class="caret"></b>
+														<i class="fa fa-user fa-fw"></i>Daniel Naula<b class="caret"></b>
 												</a>
 												<ul class="dropdown-menu" role="menu">
 														
-														<li><a href="#">Mi perfil</a></li>
+														<li><a href="/mi-perfil">Mi perfil</a></li>
 														<li><a href="#">Editar perfil</a></li>
 														<li><a href="#">Cerrar sesión</a></li>
 												</ul>
@@ -131,10 +131,10 @@
 			<li class="has-sub">
 				<a href="javascript:;">
 						<b class="caret pull-right"></b>
-						<span>Nombre Usuario</span>
+						<span>Daniel Naula</span>
 					</a>
 				<ul class="sub-menu">					
-					<li><a href="#">Mi perfil</a></li>
+					<li><a href="/mi-perfil">Mi perfil</a></li>
 					<li><a href="#">Editar perfil</a></li>
 					<li><a href="#">Cerrar sesión</a></li>
 					

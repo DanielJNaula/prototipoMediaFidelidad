@@ -41,14 +41,14 @@
                             <a href="#donacionesRetiradas" data-toggle="tab">
                               <i class="fa fa-sticky-note-o m-r-5"></i>
                               <span >Donaciones retiradas</span>
-                              (4)
+                               <span class="hidden-xs">(4)</span> 
                             </a>
                           </li>
                           <li class="">
                             <a href="#donacionesPorRetirar" data-toggle="tab">
                               <i class="fa fa-sticky-note m-r-5"></i>
                               <span >Donaciones por retirar</span>
-                              (13)
+                              <span class="hidden-xs">(13)</span>
                             </a>
                           </li>
                           

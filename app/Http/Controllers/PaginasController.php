@@ -12,6 +12,12 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
+    public function miPerfil(){
+        
+      return view('opciones-usuario.miPerfil');
+
+    }
+
     public function editarEstadoVoluntariado(){
         
       return view('beneficiario.editarEstadoVoluntariado');

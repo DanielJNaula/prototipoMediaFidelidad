@@ -315,6 +315,8 @@ footer{
   line-height: 27px;
   font-size: 16px;
 }
+
+
 /* -----------------------------------------------
 ------------ imagen campaña en registro-----------
 ----------------------------------------------- */
@@ -376,6 +378,31 @@ background: url(../imagenes/estrellas.png) 0 0 no-repeat;
 .stars-40 { background-position: -21px 0; } 
 .stars-45 { background-position: 0 -21px; }
 .stars-50 { background-position: 0 0; }
+/* -----------------------------------------------
+------------ imagen Perfil-----------
+----------------------------------------------- */
+
+
+.fotografiaMiperfil {
+  height: 200px;
+  background-size: 100%;
+  border-radius:250px;
+ 
+}
+
+@media screen and (max-width: 992px){
+    
+    .fotografiaMiperfil{
+        margin: auto;
+        width: 50%;
+    }
+    
+    
+}
+
+
+
+
 
 @media screen and (max-width: 1100px){
     
