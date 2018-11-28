@@ -12,9 +12,15 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
-    public function miPerfil(){
+    public function editarMiPerfil(){
         
-      return view('opciones-usuario.miPerfil');
+      return view('opciones-usuario.editarPerfil');
+
+    }
+    
+    public function visualizarMiPerfil(){
+        
+      return view('opciones-usuario.visualizarPerfil');
 
     }
 

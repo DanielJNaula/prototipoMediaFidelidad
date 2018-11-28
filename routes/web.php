@@ -69,7 +69,9 @@ Route::get('/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado','P
 
 
 /*OPCIONES USUARIOS*/
-Route::get('/mi-perfil','PaginasController@miPerfil');
+Route::get('/mi-perfil','PaginasController@visualizarMiPerfil');
+
+Route::get('/editar-mi-perfil','PaginasController@editarMiPerfil');
 //Route::get('/detalleCampaña','PaginasController@detalleCampaña');
 
 Route::get('/2', function () {

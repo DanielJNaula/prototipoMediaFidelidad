@@ -69,7 +69,7 @@
                                               <strong>Nombres:</strong>
                                               <strong class='text-success'>Daniel Jesús</strong><br>
                                               <strong>Correo electrónico:</strong> jesus1494@hotmail.es<br>
-                                              <strong>Dirección:</strong>Chillogallo-Buenaventura<br>
+                                              <strong>Dirección:</strong> Chillogallo-Buenaventura<br>
                                              
                                             </p>
                                             <p class="text-justify">
@@ -82,7 +82,7 @@
                                               <strong>Habilidades:</strong> <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur neque recusandae error, ipsam animi iusto eum magnam nihil consequuntur veniam laboriosam itaque nam dolorem voluptatem excepturi quia! Nostrum, animi minima.
                                             </p>
                                            <br>
-                                            <strong><h4 class="m-t-10">Calificación general de usuario:</h4></strong>
+                                            <h4 class="m-t-10"><strong>Calificación general de usuario:</strong></h4>
                                     <fieldset class="stars-fieldset"><span class="stars stars-35"></span></fieldset> <br><br>
 
                                   <table id="data-table1" class="table nowrap" width="100%">

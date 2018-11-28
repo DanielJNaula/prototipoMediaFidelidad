@@ -71,8 +71,8 @@
 												<ul class="dropdown-menu" role="menu">
 														
 														<li><a href="/mi-perfil">Mi perfil</a></li>
-														<li><a href="#">Editar perfil</a></li>
-														<li><a href="#">Cerrar sesión</a></li>
+														<li><a href="/editar-mi-perfil">Editar perfil</a></li>
+														<li><a href="/">Cerrar sesión</a></li>
 												</ul>
 					</li>
 				</ul>
@@ -135,8 +135,8 @@
 					</a>
 				<ul class="sub-menu">					
 					<li><a href="/mi-perfil">Mi perfil</a></li>
-					<li><a href="#">Editar perfil</a></li>
-					<li><a href="#">Cerrar sesión</a></li>
+					<li><a href="/editar-mi-perfil">Editar perfil</a></li>
+					<li><a href="/">Cerrar sesión</a></li>
 					
 				</ul>
 			</li>
