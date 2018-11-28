@@ -1,128 +1,80 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
-    <meta charset="utf-8" />
-        <title>Inteligencia Productiva - @yield('title')</title>
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
-        <meta content="Sistema de Inteligencia Productiva MIPRO" name="description" />
-        <meta content="Ministerio de Industrias y Productividad" name="author" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        @section('head')
-            <!-- ================== BEGIN BASE CSS STYLE ================== -->
-            <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
-            <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" />
-            <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet" />
-            <!-- ================== END BASE CSS STYLE ================== -->
-        @show
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <!-- ================== BEGIN BASE CSS STYLE ================== -->
-        @section('start_css')
-            <link href="{{ asset('plugins/bootstrap/css/bootstrap.css') }}" rel="stylesheet" />
-            <link href="{{ asset('plugins/jquery-ui/themes/base/minified/jquery-ui.min.css') }}" rel="stylesheet" />
-            <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
-            <link href="{{ asset('css/style.css') }}" rel="stylesheet" />
-            <link href="{{ asset('css/style-responsive.css') }}" rel="stylesheet" />
-            <link href="{{ asset('css/theme/default.css') }}" rel="stylesheet" id="theme" />
-            <link href="{{ asset('css/inteligencia.css') }}" rel="stylesheet" />
+    <title>{{ config('app.name', 'Laravel') }}</title>
 
-            <link href="{{ asset('css/style-front.css') }}" rel="stylesheet" />
-            
-                @show
-        <!-- ================== END BASE JS ================== -->
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109787903-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-109787903-1');
-        </script>
-    @yield('start_css2')
 </head>
-<body data-spy="scroll" data-target="#header-navbar" data-offset="51">
+<body>
+    <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    {{ config('app.name', 'Laravel') }}
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div id="page-container" class="fade">
-            @include ('layouts.menu_admin')
-            <br><br><br><br><br><br>
-            @yield ('content')
-            @include ('layouts.common_modals')
-            @include ('layouts.footer')
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            <li class="nav-item">
+                                @if (Route::has('register'))
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                @endif
+                            </li>
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+            @yield('content')
+        </main>
     </div>
-
-    <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
-
-    @section('end_js')
-            <!-- ================== BEGIN BASE JS ================== -->
-            <script src="{{ asset('plugins/jquery/jquery-1.9.1.min.js') }}"></script>
-            <script src="{{ asset('plugins/jquery/jquery-migrate-1.1.0.min.js') }}"></script>
-            <script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-            <!--[if lt IE 9]>
-              <script src="{{ asset('crossbrowserjs/html5shiv.js') }}"></script>
-              <script src="{{ asset('crossbrowserjs/respond.min.js') }}"></script>
-              <script src="{{ asset('crossbrowserjs/excanvas.min.js') }}"></script>
-            <![endif]-->
-            <script src="{{ asset('plugins/jquery-cookie/jquery.cookie.js') }}"></script>
-            <script src="{{ asset('plugins/scrollMonitor/scrollMonitor.js') }}"></script>
-            <!-- ================== END BASE JS ================== -->
-            <script src="{{ asset('plugins/jquery-ui/ui/minified/jquery-ui.min.js') }}"></script>
-            <script src="{{ asset('plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
-            <script src="{{ asset('plugins/DataTables/js/jquery.dataTables.js') }}"></script>
-            <script src="{{ asset('plugins/DataTables/js/dataTables.responsive.js') }}"></script>
-            <script src="{{ asset('js/table-manage-responsive.demo.min.js') }}"></script>
-            <script src="{{ asset('js/custom-mipro.js') }}"></script>
-            <script src="{{ asset('js/apps.js') }}"></script>
-            <script src="{{ asset('js/dashboard.js') }}"></script>
-            <script src="{{ asset('js/dropdown.js') }}"></script>
-            
-
-    @show
-
-
-    <!-- ================== BEGIN PAGE LEVEL JS ================== -->
-    <script src="{{ asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
-    <script src="{{ asset('plugins/ionRangeSlider/js/ion-rangeSlider/ion.rangeSlider.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js') }}"></script>
-    <script src="{{ asset('plugins/masked-input/masked-input.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js') }}"></script>
-    <script src="{{ asset('plugins/password-indicator/js/password-indicator.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-combobox/js/bootstrap-combobox.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-select/bootstrap-select.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-tagsinput/bootstrap-tagsinput-typeahead.js') }}"></script>
-    <script src="{{ asset('plugins/jquery-tag-it/js/tag-it.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-daterangepicker/moment.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap-daterangepicker/daterangepicker.js') }}"></script>
-    <script src="{{ asset('plugins/select2/dist/js/select2.min.js') }}"></script>
-    <script src="{{ asset('js/form-plugins.demo.min.js') }}"></script>
-    <script src="{{ asset('js/apps.min.js') }}"></script>
-    <script src="{{ asset('js/Solucion/comboSolucion.js') }}"></script>
-    
-    <script src="{{ asset('plugins/DataTables/js/jquery.dataTables.js') }}"></script>
-    <script src="{{ asset('plugins/DataTables/js/dataTables.colReorder.js') }}"></script>
-    <script src="{{ asset('plugins/gritter/js/jquery.gritter.js') }}"></script>
-    <script src="{{asset ('plugins/ckeditor/ckeditor.js')}}"></script>
-    <script src="{{asset ('plugins/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js')}}"></script>
-    <script src="{{asset ('plugins/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js')}}"></script>
-    <script src="{{asset ('js/form-wysiwyg.demo.min.js')}}"></script>
-
-    <script src="{{ asset('plugins/DataTablesv2/datatables.js') }}"></script>
-    <script src="{{ asset('js/table-manage-responsive.demo.js') }}"></script>
-    <!-- ================== END PAGE LEVEL JS ================== -->
-
-    
-
-    <script>
-        $(document).ready(function() {
-            App.init();
-            FormWysihtml5.init();
-            FormPlugins.init();
-            TableManageResponsive.init();
-        });
-    </script>
-    @yield('init_scripts')
-
-
 </body>
 </html>

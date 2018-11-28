@@ -14,7 +14,10 @@
 /*Route::get('/', function () {
     return view('welcome');
 });*/
- 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/','PaginasController@inicio');
 
 Route::get('/resutados-busqueda','PaginasController@resultadosBusqueda');
@@ -68,6 +71,22 @@ Route::get('/mis-campañas/visualizar-donaciones/editar-estado-donacion','Pagina
 Route::get('/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado','PaginasController@editarEstadoVoluntariado');
 
 
+Route::group(['prefix' => 'admin','middleware'=>['auth','admin'] ], function(){
+
+     Route::get('/home', function () {
+     return view('homeAdministrador');
+		});
+});
+
+Route::group(['prefix' => 'donador','middleware'=>['auth','donador'] ], function(){
+
+     Route::get('/home', function () {
+     return view('home');
+		});
+});
+
+
+
 /*OPCIONES USUARIOS*/
 Route::get('/mi-perfil','PaginasController@visualizarMiPerfil');
 
@@ -83,5 +102,7 @@ Route::get('/1', function () {
 	return view('cn-pages.form-summernote');
 	//return redirect('pages.dashboard-v2');
 });
+
+
 
 

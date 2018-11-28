@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'apellidos','nombres', 'email', 'password','role_id',
     ];
 
     /**
@@ -27,4 +27,34 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function roles(){
+
+        return $this->belongsTo( 'App\Role' ); 
+    
+    }
+
+    public function admin()
+    {
+        $roles = $this->roles()->get();
+        
+        $is_admin = 0;
+        foreach ($roles as $rol) {
+            if($rol->id === 1){
+                $is_admin++;
+            }
+        }
+        //dd($is_admin);
+        if($is_admin > 0){
+            return true;    
+        }else{
+            //return true;
+            return false;
+        }
+        
+
+        //var_dump($roles);
+        
+
+    }
 }

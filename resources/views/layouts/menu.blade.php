@@ -52,7 +52,7 @@
 		<div class="collapse navbar-collapse pull-right" id="top-navbar">
 				<ul class="nav navbar-nav">
 					<li>
-							<a href="#">
+							<a href="{{ route('login') }}">
 									<i class="fa fa-user fa-fw"></i> Ingresar
 							</a>
 					</li>
