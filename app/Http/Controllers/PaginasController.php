@@ -43,6 +43,12 @@ class PaginasController extends Controller
       return view('admin.emailUsuario');
 
     }
+
+    public function visualizarPerfilUsuario(){
+        
+      return view('admin.visualizarPerfilUsuario');
+
+    }
     /*fin administrador*/
 
     /*administrador*/

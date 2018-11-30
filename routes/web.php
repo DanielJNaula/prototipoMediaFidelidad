@@ -82,6 +82,8 @@ Route::group(['prefix' => 'admin','middleware'=>['auth','admin'] ], function(){
      Route::get('/usuarios-unidos-somos-mas','PaginasController@usuariosUnidosSomosMas');
 
      Route::get('/email-usuario','PaginasController@emailUsuariosUnidosSomosMas');
+
+     Route::get('/visualizar-perfil-usuario','PaginasController@visualizarPerfilUsuario');
 });
 
 Route::group(['prefix' => 'donador-beneficiario','middleware'=>['auth','donador-beneficiario'] ], function(){

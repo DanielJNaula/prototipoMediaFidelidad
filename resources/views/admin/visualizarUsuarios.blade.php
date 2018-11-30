@@ -58,7 +58,7 @@
                                             <td>Daniel Naula</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-30"> <span hidden="">30</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -67,7 +67,7 @@
                                             <td>Belen Guamán</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-30"> <span hidden="">30</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -76,7 +76,7 @@
                                             <td>Jose Toabanda</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-45"> <span hidden="">45</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -85,7 +85,7 @@
                                             <td>Luis Carrillo</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-35"> <span hidden="">35</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -94,7 +94,7 @@
                                             <td>Franklin Morocho</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-35"> <span hidden="">35</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -103,7 +103,7 @@
                                             <td>Moises Herrera</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-40"> <span hidden="">40</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -112,7 +112,7 @@
                                             <td>Simón Páez</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-20"> <span hidden="">20</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
@@ -121,7 +121,7 @@
                                             <td>Edison Naula</td>
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-35"> <span hidden="">35</span></span></fieldset></td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/visualizar-perfil-usuario"><i class="fa fa-2x fa-eye"></i></a>
                                               <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
