@@ -5,7 +5,7 @@
 		<!-- begin mobile sidebar expand / collapse button -->
 		<div class="navbar-header">
 			<!-- <a href="index.html" class="navbar-brand"><span class="navbar-logo"></span> Color Admin</a> -->
-			<a href="{{ url('/donador-beneficiario/home') }}" class="navbar-brand">
+			<a href="{{ url('/admin/home') }}" class="navbar-brand">
 					<img src="{{ asset('imagenes/logoPlataformaCompleto.png') }}" class="center-block img-responsive" alt="" width="130px" height="46px">
 			</a>
 			<button type="button" class="navbar-toggle" data-click="sidebar-toggled">
@@ -19,47 +19,31 @@
 						<div class="collapse navbar-collapse pull-left" id="top-navbar">
 								<ul class="nav navbar-nav">
 										<li>
-												<a href="/donador-beneficiario/home">
+												<a href="/admin/home">
 														Inicio
 												</a>
 										</li>
-										<li class="dropdown">
-												<a href="#" >
-														Conoce más
-												</a>
-												
-										</li>
+										
 										<li class="dropdown">
 												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-														Explorar Proyectos<b class="caret"></b>
+														Campañas<b class="caret"></b>
 												</a>
 												<ul class="dropdown-menu" role="menu">
 														
-														<li><a href="#">Proyectos de Donaciones de Bienes</a></li>
-														<li><a href="#">Proyectos Voluntariado</a></li>
+														<li><a href="/admin/campañas-publicadas">Campañas publicadas</a></li>
+														<li><a href="/admin/campañas-por-publicar">Campañas por publicar</a></li>
 												</ul>
 										</li>
 										<li class="dropdown">
-												<a href="/visualizar-mis-campañas">
-														Mis Campañas
-												</a>
-												
-										</li>
-										<li class="dropdown">
-												<a href="/visualizar-mis-comentarios">
-														Mis Comentarios
-												</a>
-												
-										</li>
-										<li class="dropdown">
-												<a href="/visualizar-mis-donaciones">
-														Mis Donaciones
+												<a href="/admin/usuarios-unidos-somos-mas">
+														Usuarios
 												</a>
 												
 										</li>
 										
+										
 								</ul>
-						</div> 
+						</div>
 
 		<div class="collapse navbar-collapse pull-right" id="top-navbar">
 				<ul class="nav navbar-nav">
@@ -70,8 +54,7 @@
 												</a>
 												<ul class="dropdown-menu" role="menu">
 														
-														<li><a href="/mi-perfil">Mi perfil</a></li>
-														<li><a href="/editar-mi-perfil">Editar perfil</a></li>
+														
 														<li>
 															<a class="dropdown-item" href="{{ route('logout') }}"
 						                                       onclick="event.preventDefault();

@@ -12,6 +12,40 @@ use FarhanWazir\GoogleMaps\GMaps;
 
 class PaginasController extends Controller
 {
+    
+    /*administrador*/
+    public function homeAdministrador(){
+        
+      return view('admin.home');
+
+    }
+
+    public function campañasPublicadas(){
+        
+      return view('admin.visualizarCampañasPublicadas');
+
+    }
+
+    public function campañasPorPublicar(){
+        
+      return view('admin.visualizarCampañasPorPublicar');
+
+    }
+
+    public function usuariosUnidosSomosMas(){
+        
+      return view('admin.visualizarUsuarios');
+
+    }
+    /*fin administrador*/
+
+    /*administrador*/
+    public function homeDonadorBeneficiario(){
+        
+      return view('opciones-usuario.home');
+
+    }
+    /*fin administrador*/
     public function editarMiPerfil(){
         
       return view('opciones-usuario.editarPerfil');

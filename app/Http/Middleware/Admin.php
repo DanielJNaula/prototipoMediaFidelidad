@@ -38,7 +38,7 @@ class Admin
 
             case '2':
                 # administrador
-                return redirect()->to('donador/home');
+                return redirect()->to('donador-beneficiario/home');
                 break;
             
             default:

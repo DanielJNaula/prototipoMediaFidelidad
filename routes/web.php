@@ -73,16 +73,18 @@ Route::get('/mis-campañas/visualizar-voluntarios/editar-estado-voluntariado','P
 
 Route::group(['prefix' => 'admin','middleware'=>['auth','admin'] ], function(){
 
-     Route::get('/home', function () {
-     return view('homeAdministrador');
-		});
+     Route::get('/home','PaginasController@homeAdministrador');
+
+     Route::get('/campañas-publicadas','PaginasController@campañasPublicadas');
+
+     Route::get('/campañas-por-publicar','PaginasController@campañasPorPublicar');
+
+     Route::get('/usuarios-unidos-somos-mas','PaginasController@usuariosUnidosSomosMas');
 });
 
-Route::group(['prefix' => 'donador','middleware'=>['auth','donador'] ], function(){
+Route::group(['prefix' => 'donador-beneficiario','middleware'=>['auth','donador-beneficiario'] ], function(){
 
-     Route::get('/home', function () {
-     return view('home');
-		});
+     Route::get('/home','PaginasController@homeDonadorBeneficiario');
 });
 
 

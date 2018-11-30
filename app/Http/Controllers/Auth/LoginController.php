@@ -30,7 +30,7 @@ class LoginController extends Controller
         if(Auth::user()->admin() == true){
             return '/admin/home';    
         }else{
-            return '/donador/home';
+            return '/donador-beneficiario/home';
         }
         
     }
