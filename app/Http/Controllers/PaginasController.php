@@ -37,6 +37,12 @@ class PaginasController extends Controller
       return view('admin.visualizarUsuarios');
 
     }
+
+    public function emailUsuariosUnidosSomosMas(){
+        
+      return view('admin.emailUsuario');
+
+    }
     /*fin administrador*/
 
     /*administrador*/

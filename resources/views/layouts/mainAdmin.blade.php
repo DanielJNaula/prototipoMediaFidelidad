@@ -66,13 +66,11 @@
 		@section('end_js')
 			<!-- ================== BEGIN BASE JS ================== -->
 
-			
 			<script src="{{ asset('plugins/jquery/jquery-1.9.1.min.js') }}"></script>
 			<script src="{{ asset('js/popper.min.js') }}"></script>
-			<script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-			<script src="/cn-assets/js/theme/default.js"></script>
-
 			<script src="{{ asset('plugins/jquery/jquery-migrate-1.1.0.min.js') }}"></script>
+			<script src="{{ asset('plugins/jquery-ui/ui/minified/jquery-ui.min.js') }}"></script>
+			<script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 
 			
 			<!--[if lt IE 9]>
@@ -81,8 +79,8 @@
 			  <script src="{{ asset('crossbrowserjs/excanvas.min.js') }}"></script>
 			<![endif]-->
 
+			<script src="{{ asset('plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
 			<script src="{{ asset('plugins/jquery-cookie/jquery.cookie.js') }}"></script>
-			<script src="{{ asset('plugins/scrollMonitor/scrollMonitor.js') }}"></script>
 			<!-- ================== END BASE JS ================== -->
 			<script src="{{ asset('plugins/jquery-ui/ui/minified/jquery-ui.min.js') }}"></script>
 		    <script src="{{ asset('plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>

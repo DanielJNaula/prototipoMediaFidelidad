@@ -59,7 +59,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-30"> <span hidden="">30</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -68,7 +68,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-30"> <span hidden="">30</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -77,7 +77,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-45"> <span hidden="">45</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -95,7 +95,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-35"> <span hidden="">35</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -104,7 +104,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-40"> <span hidden="">40</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -113,7 +113,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-20"> <span hidden="">20</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -122,7 +122,7 @@
                                             <td><fieldset class="stars-fieldset"><span class="stars stars-35"> <span hidden="">35</span></span></fieldset></td>
                                             <td class="text-center ">
                                               <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/email-usuario"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                        
