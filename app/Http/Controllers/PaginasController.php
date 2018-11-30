@@ -49,6 +49,30 @@ class PaginasController extends Controller
       return view('admin.visualizarPerfilUsuario');
 
     }
+
+    public function emailUsuarioCampañaPorPublicar(){
+        
+      return view('admin.emailUsuarioCampañaPorPublicar');
+
+    }
+
+    public function visualizarDetalleCampañaBienesPorPublicar(){
+        
+      return view('admin.visualizarDetalleCampañaBienesPorPublicar');
+
+    }
+
+    public function visualizarDetalleCampañaVoluntariadoPorPublicar(){
+        
+      return view('admin.visualizarDetalleCampañaVoluntariadoPorPublicar');
+
+    }
+
+    public function actualizarEstadoCampaña(){
+        
+      return view('admin.editarEstadoCampaña');
+
+    }
     /*fin administrador*/
 
     /*administrador*/

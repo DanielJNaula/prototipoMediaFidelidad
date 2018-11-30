@@ -84,6 +84,14 @@ Route::group(['prefix' => 'admin','middleware'=>['auth','admin'] ], function(){
      Route::get('/email-usuario','PaginasController@emailUsuariosUnidosSomosMas');
 
      Route::get('/visualizar-perfil-usuario','PaginasController@visualizarPerfilUsuario');
+
+     Route::get('/email-usuario-creador-campaña-por-publicar','PaginasController@emailUsuarioCampañaPorPublicar');
+
+     Route::get('/visualizar-detalle-campaña-bienes-por-publicar','PaginasController@visualizarDetalleCampañaBienesPorPublicar');
+
+     Route::get('/visualizar-detalle-campaña-voluntariado-por-publicar','PaginasController@visualizarDetalleCampañaVoluntariadoPorPublicar');
+
+     Route::get('/actualizar-estado-campaña','PaginasController@actualizarEstadoCampaña');
 });
 
 Route::group(['prefix' => 'donador-beneficiario','middleware'=>['auth','donador-beneficiario'] ], function(){

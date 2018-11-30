@@ -64,9 +64,9 @@
                                             <td>Donación</td>
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut hic animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td class="text-center" style="width: 120px">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-bienes-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -79,9 +79,9 @@
                                             <td>Voluntariado</td>
                                             <td>Animi magnam deserunt in perferendis accusamus obcaecati.</td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-voluntariado-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -94,9 +94,9 @@
                                             <td>Donación</td>
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo pariatur tempore, similique! Commodi ratione aliquam accusamus at consectetur!</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-bienes-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -109,9 +109,9 @@
                                             <td>Voluntariado</td>
                                             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, magnam distinctio provident eveniet cum labore alias numquam facere aut.</td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-voluntariado-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -124,9 +124,9 @@
                                             <td>Donación</td>
                                             <td>Consectetur adipisicing elit. Nisi veniam numquam velit excepturi iusto.</td>
                                             <td class="text-center ">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-bienes-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -139,9 +139,9 @@
                                             <td>Voluntariado</td>
                                             <td>Dolor sit amet, consectetur adipisicing elit. Enim aut, sint deleniti, eligendi animi sit esse!</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-voluntariado-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -154,9 +154,9 @@
                                             <td>Donación</td>
                                             <td>Sit amet, consectetur adipisicing elit. Modi necessitatibus sunt dolorem qui quis ratione debitis est expedita reiciendis similique.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-bienes-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                         <tr >
@@ -169,9 +169,9 @@
                                             <td>Voluntariado</td>
                                             <td>Psum dolor sit amet, consectetur adipisicing elit. Aspernatur ducimus veniam magnam beatae quae, nemo adipisci corporis doloremque nihil.</td>
                                             <td class="text-center">
-                                              <a href="#"><i class="fa fa-2x fa-edit"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-eye"></i></a>
-                                              <a href="#"><i class="fa fa-2x fa-envelope"></i></a>
+                                              <a href="/admin/actualizar-estado-campaña"><i class="fa fa-2x fa-edit"></i></a>
+                                              <a href="/admin/visualizar-detalle-campaña-voluntariado-por-publicar"><i class="fa fa-2x fa-eye"></i></a>
+                                              <a href="/admin/email-usuario-creador-campaña-por-publicar"><i class="fa fa-2x fa-envelope"></i></a>
                                             </td>
                                         </tr>
                                        
